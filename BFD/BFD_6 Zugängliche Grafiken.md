@@ -94,6 +94,97 @@ unterschiedliche Typen mit teils charakteristischen Elementen und unterschiedlic
 ![[Pasted image 20240116082841.png]]
 
 #### Bereitstellung mit SVG
+##### Barrierefreies SVG
+- Erhöht Verständnis von Grafiken für alle Betrachtenden
+- Lesbarkeit ohne Grafikprogramm möglich
+- alle Elemente semantisch kennzeichnen:
+	- wenn möglich Basistypen statt `path` verwenden (z.B. `circle, rect, line, polygon...`) 
+	- Textalternativen und -beschreibungen: title, desc, meta
+	- Gruppierungen von Elementen mit `g` 
+	- sinnvolle Wiederverwendung gleichbedeutender separat definierter Elemente mit `use`
+	- Objekttransformationen vermeiden (Linienstile, Schriftgröße etc. werden mitskaliert.)
+- externe SCG Grafik kann via `<img>`-Tag wie Pixelgrafik eingebunden werden (Alternativtext).
+	- `<img src="beispiel.svg" alt ="eine beispielhafte Grafik"/>`
+- Inline SVG : `<Title>` und `<Desc>` zur Beschreibung der Elemente + arialabelledby im svg-tag (Besserer Browsersupport)
+- `tabindex` kann für *einzelne* Elemente festgelegt werden, sodass SVG-Datei **navigierbar** wird
+![[Pasted image 20240118210310.png]]
+
+#### Bereitstellung mit Editoren
+##### Bildbeschreibung hinzufügen
+- von diversen Programmen bspw. Word,  Powerpoint, Acrobat Reader DC unterstützt
+- Beschreibungen gegebenenfalls in separater Datei mitliefern (mit entsprechendem Verweis darauf.)
+- ![[Pasted image 20240118210609.png]]
+
+#### Herausforderungen
+- Oft nur eine mögliche Interpretation -> subjektiv, abhängig von Wissen und Fähigkeiten des Erstellenden.
+- Notationscharakteristik schwer verbalisierbar.
+- z.B. komplexe Darstellungen, Schalkreis(Elektrotechnik), UML, Aufbau Experiment
+- Detaillierungsgrad (Farben? Hintergrundwissen? -> 考虑读者的感受)
+- Erstellung sehr aufwändig, bspw. AGSBS -> meist manuelle Erstellung von Personen mit Fachexpertise
+- Verstehen komplexer Beschreibungen is anstrengend und benötigt viel Zeit.
+
+## 4 Taktile Grafiken
+### Einführung und Gestaltung
+![[Pasted image 20240118213753.png]]
+触觉感受, 首先尝试把手指静止放在某种材料上, 然后开始移动, 看感受有什么不同。-->MBO中讲的类似, 触觉需要西东手指
+
+### Definition: Taktile Grafiken
+> fühlbare Grafiken, die mit dem Tastsinn wahrgenommen werden können.
+> bestehen aus erhabenen Punktsymbolen, Linien und Texturen -> Unterscheidung 
+> häufig in Kombination mit Braille-Beschriftungen.
+> verschiedene Erstellungsverfahren und Techniken verfügbar
+
+### Distribution Schwellpapier
+- Druck auf Spezialpapier -> gleichmäßig erhitzen
+- **Heiligkeitswert** entspricht Schwellhöhe: Je dunkler, desto höher geschwellt.
+
+**Vorteil**: 
+- Handelsübliche Laserprinter verwendbar
+- Glatte Linienverläufe
+- Unterschiedliche Reliefhöhen
+- Hohe Auflösung
+
+**Nachteil**:
+- Schlecht für Braille-Schrift -> 因为是用Fuser对智障进行加工, 不适用盲文的打印, 有点大材小用的感觉
+- keine harten Kanten
+- benötigt Spezialgerät zum "Schwellen" (Fuser,  熔凝器)
+- Schwellpapier ist preisintensiv (ca. 1€ pro A4 Blatt)
+![[Pasted image 20240118215843.png]]
+### Distribution Braille Drucker
+- Für Braille-Schrift-Druck **optimiert**
+- Punktabstand lässt sich verändern (Braille-Schrift, äquidistant)
+
+**Vorteile:**
+- tiefe Prägung
+- variable Auflösung
+- kann aus Text generiert werden
+- Duplexdruck möglich -> 双面打印
+
+**Nachteile:**
+- geringe Auflösung (ca. 10 dpi)
+- nur eine Reliefhöhe
+
+![[Pasted image 20240118220430.png]]
+
+### Distribution Taktile Druker
+- für Grafikdruck optimiert
+- automatische Umsetzung von Helligkeitswerten in Reliefhöhen. (Reliefkarte:  地形图)
+
+**Vorteil:**
+- 8 Stufen von Prägungstiefen (praktisch max.3 unterscheidbar)
+- scharfe Kanten und Linien
+- große Papierformate
+- kombinierbar mit Schwarzschrift, Farben
+
+**Nachteil:**
+- Auflösung (ca. 20 dpi)
+- kostenintensive Hardware
+- unüblicher als Braille-Druck -> geringe Verfügbarkeit
+
+
+
+
+
 
 
 
