@@ -1,5 +1,5 @@
 >  Zugängliche Grafiken für Menschen mit Blindheit oder Sehbeeinträchtigung und Grafische Notationen
-
+![[Pasted image 20240120152249.png]]
 # Agenda:
 **Teil 1 + Übung**
 1. Grundlagen Grafiken
@@ -134,7 +134,8 @@ unterschiedliche Typen mit teils charakteristischen Elementen und unterschiedlic
 > häufig in Kombination mit Braille-Beschriftungen.
 > verschiedene Erstellungsverfahren und Techniken verfügbar
 
-### Distribution Schwellpapier
+--> 下面不同类型的Grafiken需要大致掌握每种的特点。别混淆
+#### Distribution Schwellpapier
 - Druck auf Spezialpapier -> gleichmäßig erhitzen
 - **Heiligkeitswert** entspricht Schwellhöhe: Je dunkler, desto höher geschwellt.
 
@@ -150,7 +151,7 @@ unterschiedliche Typen mit teils charakteristischen Elementen und unterschiedlic
 - benötigt Spezialgerät zum "Schwellen" (Fuser,  熔凝器)
 - Schwellpapier ist preisintensiv (ca. 1€ pro A4 Blatt)
 ![[Pasted image 20240118215843.png]]
-### Distribution Braille Drucker
+#### Distribution Braille Drucker
 - Für Braille-Schrift-Druck **optimiert**
 - Punktabstand lässt sich verändern (Braille-Schrift, äquidistant)
 
@@ -166,7 +167,7 @@ unterschiedliche Typen mit teils charakteristischen Elementen und unterschiedlic
 
 ![[Pasted image 20240118220430.png]]
 
-### Distribution Taktile Druker
+#### Distribution Taktile Druker
 - für Grafikdruck optimiert
 - automatische Umsetzung von Helligkeitswerten in Reliefhöhen. (Reliefkarte:  地形图)
 
@@ -180,6 +181,225 @@ unterschiedliche Typen mit teils charakteristischen Elementen und unterschiedlic
 - Auflösung (ca. 20 dpi)
 - kostenintensive Hardware
 - unüblicher als Braille-Druck -> geringe Verfügbarkeit
+
+#### Distribution Kollagen
+Bildkomposition aus verschiedenen Materialien
+
+**Vorteile:**
+- kann sehr detailliert und **realitätsnah** gestaltet werden
+- Verwendung verschiedener Oberflächenstrukturen möglich.
+
+**Nachteile:**
+- hoher Erstellungsaufwand
+- Vervielfältigung aufwendig --> 很难制作副本, 每件样品都是独一无二的
+![[Pasted image 20240120143931.png]]
+#### Distribution Punktreliefs
+- Manuelles Prägen von Punkten in *Zinkblech*
+- Vervielfältigung der *punzierten* Platte im Blindendruck (用样板打出（冲出）标志（Edelmetalllegierungen贵金属合金)
+- Ergebnis ist ein Papierblatt analog einer Punktschriftseite
+
+**Vorteile:**
+- schnelle und kostengünstige Vervielfältigung
+
+**Nachteile:**
+- keine Fehlerkorrektur möglich
+- Zinkverbrauch
+![[Pasted image 20240120144057.png]]
+
+#### Distribution Folienreliefs
+##### 1. Erstellung einer Basismatrize
+- als Kollage
+- durch Plotten von Materialschichten
+	- Auflösung einer Vektorgrafik in Schnittmasken mittels CAD
+	- Ebenenzüge werden mittels Schneideplotter oder CAD-Fräse erstellt
+	- auf Basisplatte zu einer Master-Matrize kombiniert
+	- nachträgliche Detaillierung
+![[Pasted image 20240120144816.png]]
+##### 2. Tiefziehen einer Folie. --> 成型过程
+- Matrize im Vakuum-Tiefziehverfahren(真空)  vervielfältigt (Hitzebeständigkeit)
+- Kunststofffolien über Matrize eingespannt
+- Erhitzen der Folien bis sie plastisch ist
+- Ansaugen der weichen Folien durch eine Vakuumpumpe
+- nach Abkühlung formstabiles Relief.
+![[Pasted image 20240120151447.png]]
+
+#### Distribution 3D-Modelle
+3-dimensionale Körper zur Vermeidung perspektivischer Abbildungen (Projektionsbilder in 2D)
+
+**Vorteile:**
+- Veranschaulichung von Volumina möglich
+- Realitätsnahe, haptisch angepasste Modelle
+- beliebige Druckhöhen und Detailgrad möglich
+- auch Braille-Schrift druckbar
+- Einsatz von Farben möglich
+- unterschiedliche Materialien
+
+**Nachteile:**
+- zeitintensive Erstellung der 3D-Modelle
+- lange Druckzeiten
+- Erstellung erfordert Expertise
+
+### -> Verbreitung taktiler Medien
+![[Pasted image 20240120151859.png]]
+->了解趋势
+
+### Erkundung taktiler Grafiken
+- muss erlernt werden (meist in Schule)
+- Kognitiver Prozess: Zusammensetzung eines Bildes aus vielen Einzelbildern
+- unterschiedliche **Strategien** zum Bildverständnis
+- Minimalverständnis des **Grafiktyps** wichtig
+- meist Braillekenntnisse erforderlich
+
+#### Erkundungsstrategien
+##### 1. Braille Lesen
+- Beide Hände mit 4 Fingern -> Unterstützung beim Verfolgen der Zeile
+	- ![[Pasted image 20240120152757.png]]
+
+- Linker Zeigerfinger referenziert und rechter Zeigerfinger liest.
+	- ![[Pasted image 20240120152903.png]]
+- Linker Zeigerfinger liest zur Mitte, danach rechter Zeigerfinger:
+	- ![[Pasted image 20240120152947.png]]
+##### 2. Initiales Abtasten
+- Vor der detaillierten Erkundung -> initiales Abtasten mit beiden Händen 
+	- um Überblick zu erfassen:
+		- Größe
+		- Ausmaß
+		- Grafiktypen
+		- ...
+
+##### 3. Linienverfolgung (Edge-Strategy)
+Erfassen konkrete Umrisse, Formen und Figuren durch Abfahren der Außenlinie -> in Schulen vermittelte Strategie zur **Objekterkennung**
+![[Pasted image 20240120153232.png]]
+
+##### 4. Systematische Strategien (horizontales / vertikales Erkunden)
+![[Pasted image 20240120153314.png]]
+
+##### 5. Perimeter / Speicherrad-Strategie
+Erkundung rundum einen Point-of-Interest
+![[Pasted image 20240120153406.png]]
+
+##### Nutzendeneingenschaften / Kontext
+![[Pasted image 20240120154309.png]]
+
+#### Herausforderungen
+- fehlender sukzessiver Erkundungsvorgang
+- zu großes Format (> A3)
+- überladen mit Information
+- mangelhafte taktile Unterschied- und Erkennbarkeit
+- Braille auf Texturen nicht erkennbar
+- zu wenige Tastebenen verwendet (Reliefs)
+- fehlende Zeichenerklärung (Legende)
+
+### Richtlinien
+#### 1. Wahrung der ursprünglichen Aussage
+- Aussage des Bildes darf nicht gefälscht oder geändert werden 
+	- keine Informationen weglassen oder hinzufügen
+
+#### 2. Reduzierung der Komplexität
+- nur zum Verständnis notwendige Elemente übernehmen
+	- -> Schumuchgrafiken, Dekorationen weglassen
+- Grafik so einfach wie möglich gestalten
+- Änderungen ggf. in **Annotationen** vermerken
+
+#### 3. Texturen, Linienstile und Punktsymbole sparsam verwenden
+- Max. 5 Texturen in einer Grafik
+- Referenzieren verwendeter Texturen, Linienstile, Symbole und Keys in einer Legende
+
+#### 4. Perspektive vermeiden
+- 3-dimensionale Darstellungen in 2-dimensionale überführen
+- Überschneidungen von Objekten vermeiden
+
+#### 5. Aufteilen komplexer Objekte
+- Zerlegung komplexer Objekte in Teilgrafiken
+- Zusammengehörigkeit deutlich kennzeichnen
+
+#### 6. Unterscheidbarkeit
+- Mindestabstände und -größen beachten
+- Geprüfte Texturensets mit geringer Ähnlichkeit untereinander verwenden
+
+#### 7. Verwendung von Braille-Schrift
+- geeignete Brailleschrift in richtiger Schriftgröße verwenden
+- *kleine* Braille-Beschriftungen mit einem Rahmen hervorheben
+- Braille-Schrift immer horizontal und linkbündig anordnen
+
+
+# Teil 2
+![[Pasted image 20240120163653.png]]
+
+### Erstellung Taktiler Grafiken
+
+- häufig aufwendiger, manueller Prozess
+- Richtlinien für taktile Grafiken müssen eingehalten werden
+- häufig als Transkription von visuellen Grafiken
+- **Optimalfall**: Autor erstellt taktile und visuelle Grafik
+![[Pasted image 20240120164130.png]]
+
+**Herausforderungen:**
+- Menschen mit Blindheit und Sehbeeinträchtigung selbstständige Erstellung ermöglichen
+- Qualitätskontrolle durch Zielgruppe
+- Balance: Vereinfachung vs. Informationsgehalt vs. Überblick
+- Beachtung der Eigenschaften verschiedener Herstellungsverfahren
+
+### Editoren
+- klassische oder spezielle Grafikeditoren (z.B. mit speziellen Texturen) -> Helligkeitswert bestimmt Prägehöhe für z.B. Schwellpapier und Grafikdrucker
+- Erstellung taktiler Grafiken mit Hilfe von ASCII-Zeichen -> durch Aneinandersetzen dieser zu einem Bild
+- kann mit **Standardeditor** erstellt  und mit Braille-Drucker geprägt werden.
+- ![[Pasted image 20240120164818.png]]
+
+### Teilautomatisierte Erstellung
+> Häufigster Ansatz: Anpassung einer bestehenden visuellen Grafiken für die taktile Ausgabe (Transkription).
+
+Bsp.: TGA (Tactile Graphics Assistant)
+-> Algorithmus zur automatischen Vereinfachung und Optimierung herkömmlicher Grafiken in taktile Grafiken:
+- manuelles Eingruppierung der Bilder in Klassen sowie Training
+- Separieren und Entfernen von Text innerhalb einer Grafik
+- OCR und Umwandlung in Braille
+	- ![[Pasted image 20240120165619.png]]
+
+### Mathematische Darstellungen
+~ sind Kombination aus definierten Visualisierungstechniken und Illustrationen
+
+**Anwendungsgebiete**: Visualisierung mathematischer Funktionen, Geometrie (Dreieck + Winkel)
+
+**Darstellung**: 
+- 2.5D: Hilfslinien und Funktionsverlauf als Relief
+- Linearisierung, z.B. von Graphen, ermöglicht selbstständiges Schreiben
+- spezielle Darstellungsformen für bestimmte Anwendungsgebiete, z.B. Schachschrift
+- ![[Pasted image 20240120170026.png]]
+
+**DotsPlus Braille**
+![[Pasted image 20240120170208.png]]
+### Vollautomatische Erstellung
+- geeignet für. ´wohldefinierte Grafiktypen (z.B. Diagramme)
+- *wenige* Anwendungen mit gutem Ergebnis vorhanden 
+- Qualitätskontrolle sollte dennoch sichergestellt sein
+- Ermöglicht *selbstständige Erstellung* durch Menschen mit Blindheit oder Sehbeeinträchtigung
+- Kontrolle des Ergebnisses ohne Ausdruck schwierig
+- Bsp. beim Thema "Diagramme"
+
+## 5 Taktile Interaktion - Interagieren mit taktilen Grafiken
+-> 注意记一下有哪些用于交互的技术
+
+### Audio-haptische Systeme
+**Nachteile taktiler Grafiken**
+- begrenzte Auflösung -> geringe *Informationsdichte*
+- Unterscheidbarkeit der Elemente (max. 5 Texturen / Symbole / Linienstile)
+- muss erlernt werden -> hoher kognitiver Aufwand 
+
+**Ansatz**
+- multimodale Systeme-> Kombination verschiedener Ein- und Ausgabemöglichkeiten , z.B. haptischer und auditiver Elemente
+- Ansprechen verschiedener Sinne
+
+
+### Audio-Taktile Ansätze
+
+
+
+
+
+
+
+
 
 
 
