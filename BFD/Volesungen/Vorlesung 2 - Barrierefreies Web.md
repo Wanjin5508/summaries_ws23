@@ -6,7 +6,7 @@ tags:
   - BFD
 ---
 -> Techniken für Inhalte
-# Anforderungen / Barrieren im Web
+# Anforderungen / *Barrieren im Web*
 - Grafik, Audio, Video (Zugänglichkeit)
 - Zeitgesteuerte Änderungen
 - Eingabe- und Ausgabegeräte (Unabhängigkeit)
@@ -214,7 +214,7 @@ der beteiligten Landvermessungsämter</td>
 ### AJAX ermöglicht Dynamik
 -  AJAX (*asynchrones* Laden von Webinhalten während Website angezeigt wird)
 - ![[Pasted image 20240204172728.png]]
--  Beschreibung mittels [[Vorlesung 2 - Barrierefreies Web#ARIA|ARIA]] (z.B. aria-label, aria-hidden)
+-  Beschreibung mittels [[Vorlesung 2 - Barrierefreies Web#ARIA|ARIA]] (z.B. `aria-label, aria-hidden`)
 
 ### [[BFD/Volesungen/BFD Übungen#ARIA|ARIA]]
 - **bisher**: Seiten sollen ohne Javascript bedienbar sein (`<noscript>`) 

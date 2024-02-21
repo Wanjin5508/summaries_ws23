@@ -1,12 +1,22 @@
 # Einführung
+## Behinderung
+- physische oder mentale Einschränkung, 
+- Einfluss auf Lebensabläufe (Zugang zu Multimedia / Internet)
+- IT muss individuelle, situationsbezogenem, umgebungsbedingte und gruppenspezifische Einschränkungen durch *Adaptierung* dem Menschen anpassen -> Integration
+- ![[Pasted image 20240221232149.png]]
+
 ## Barrierefreiheit (Accessibility)
 > Def. *Barriere*:
 > **Einschränkungen** bei wichtigen täglichen Aktivitäten (zur Schule gehen, Buch lesen...) vermeiden
 > 
 > **Nicht** definiert sind: "*barrierearm*", "zugänglich"
 
-### 障碍的产生
-*Neue Formen* der MC-Kommunikation erzeugen Barrieren, wenn ihre **Adaptierung** nicht bekannt ist, (bspw. GUI->Pixel-Barriere, VR->Nicht-visuelle Immersion, Sprachassistenten->Sprechvermögen als Barriere(或者说, 语言水平, 例如Alexa不支持中文) ).
+### Barriere durch neue Formen der MCI
+*Neue Formen* der MC-Kommunikation erzeugen Barrieren, wenn ihre **Adaptierung** nicht bekannt ist, (bspw.:
+- GUI->Pixel-Barriere, Maus und andere Zeigeinstrumente
+- VR->Nicht-visuelle Immersion, 
+- Sprachassistenten->Sprechvermögen als Barriere(或者说, 语言水平, 例如Alexa不支持中文) 
+- Multimedia und Interaktive Medien -> Multimedia-Barriere, Mangel an temporaler Steuerbarkeit ).
 
 ### 区分: Usability(Gebrauchstauglichkeit) vs. Accessibility (BF)
 - **==Wahrnehmbarkeit (Multimedien 来传达信息)==**
@@ -45,9 +55,12 @@
 ![[Pasted image 20240203162541.png]]
 
 
-## Index of Inclusion
+## Index of Inclusion 包容性
 **Index of Inclusion** ist ein Prozess zur Förderung der Inklusion
-
+- inklusive Kulturen schaffen
+- inklusive Strukturen verankern (Unterstützung für Vielfalt)
+- inklusive Praktiken entwickeln
+![[Pasted image 20240221232935.png]]
 
 # Users
 -> BFD 的目标群体, 记住这些群体的名字
@@ -137,6 +150,7 @@
 - -> **==Caption vs. Subtitle==**:
 	- **Captions** are a transcription of dialogue and are primarily used to **help viewers who cannot hea**r video audio. Meanwhile, **subtitles** provide a translation for **viewers who don't understand** the language being spoken.
 - Untertitelung (Sprecher benennen, Geräusche, Klänge umschreiben, Genauigkeit, Geschwindigkeit)
+
 ## Taubblinde Menschen (盲聋)
 - Buchstaben mit den Fingern malen (**Daktylieren**) und abtasten Handfläche (lormen)
 
@@ -154,16 +168,16 @@
 		- Küchen-Stoppuhr
 	- Tabli: kleine Braillezeile und Display
 
- 
-## Leseschwäche - Dyslexie (阅读障碍)
+## Kognitive Behinderungen
+### Leseschwäche - Dyslexie (阅读障碍)
 - viel mit hören, da vertauschen der Buchstaben. (视觉上他们可能会把字母颠倒混淆。)
 
-## Sprachbehinderung/Aphasie（语言障碍/如失语症）
-
+### Sprachbehinderung/Aphasie（语言障碍/如失语症 Sprachverlust）
 - viel mit Bildern
 - Bildtastatur
 - Bildsprache (z.B. BLISS)
 
+### Geistige Behinderung
 
 ## Körperbehinderung
 - Rollstuhlfahrer： anpassbarer Tisch

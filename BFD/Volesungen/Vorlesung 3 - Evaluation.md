@@ -4,6 +4,7 @@
 - [[#E-Methode Automatisiertes Prüfen von Barrierefreiheit]]
 - [[#E-Methode Simulation]]
 - [[#E-Methode Barrier Walkthrough]]
+![[Pasted image 20240221234108.png]]
 
 ## **Kriterien von unterschiedlichen Methoden:**
 - Vollständigkeit: wie *umfangreich* ist Barrierefreiheit erfasst
@@ -64,7 +65,7 @@ initiale Form -> [[#Sichten|manueller Evaluationsprozess]] -> Bericht
 	- **WAVE Toolbar** erlaubt Visualisierung von *Regionen* und *Mark-up* in der Browseransicht
 	- ![[Pasted image 20240205114626.png|400]]
 - Inspektion für Javascript (Firefox Accessibility Extensions (FAE)
-	- Untersuchung der ARIA Widgets (Role, Tab Index, Wert)
+	- Untersuchung der *ARIA Widgets (Role, Tab Index, Wert)*
 
 ### Prüfwerkzeuge fehlen für
 - **Audio** (Spracherkennung möglich, jedoch nur bei isolierten Sprechern anwendbar)
@@ -100,7 +101,7 @@ initiale Form -> [[#Sichten|manueller Evaluationsprozess]] -> Bericht
 	- Navigation
 	- einfache Sprache
 	- Einfluß des Hilfsmittels
-
+**
 ### Websites bewerten: Crawling (爬取)
 - URL Sammlung ist meist ein **FIFO**
 - Gefundene URLs müssen *normalisiert* werden
@@ -161,14 +162,14 @@ Simulation von Präsentation bildet ***Wahrnehungsdefizite*** nach
 > **Heuristische** Methode um Barrierefreiheit zu evaluieren
 > 
 > ***Grundidee***: Liste von **typischen Fehlern** überprüfen, **Reliabilität** betonen
-> -> **Expertentext** im Kontext von Benutzungsszenarien
+> -> **Expertentext** im Kontext von *Benutzungsszenarien*
 
 ***==Schrittfolge==***:
-- Definiere *Benutzerprofil* (z.B. ==Art der Behinderung==)
-- definiere *Benutzerszenarios* (z.B. Hilfsmittel, Ziele)
-- Bestimmung *möglicher* ==Barrieren==
-- *evaluiere* Seiten
-- Auswirkungsgrad schätzen (Auswirkung(wie stark) + Nachhaltigkeit(wie oft))
+- 1. Definiere *Benutzerprofil* (z.B. ==Art der Behinderung==)
+- 2. definiere *Benutzerszenarios* (z.B. Hilfsmittel, Ziele)
+- 3. Bestimmung *möglicher* ==Barrieren==
+- 4. *evaluiere* Seiten
+- 5. Auswirkungsgrad schätzen (Auswirkung(wie stark) + Nachhaltigkeit(wie oft))
 
 **Eine ==Barriere== wird beschrieben durch:**
 1. die Kategorie der *Benutzer* und die Art der *Behinderung*

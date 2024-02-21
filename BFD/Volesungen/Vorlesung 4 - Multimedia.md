@@ -111,8 +111,8 @@ aliases:
 ![[Pasted image 20240206155605.png|400]]
 ![[Pasted image 20240206155553.png]]
 -> 公式以Box模型储存在XML文档中
-# Fallstudie 2: Mathematik
 
+# Fallstudie 2: Mathematik
 | Entwurfskriterium | Mathematik-Interaktion                                                                                                                  |
 | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
 | Kohärenz           | Ausgabe-Modalität und Eingabe Modalität sollen sich entsprechen, (Braille Eingabe und Braille Ausgabe, Spracheingabe und Sprachausgabe) |
@@ -131,12 +131,12 @@ aliases:
 - Stuttgarter Schrift (SMSB)
 	- 8 Punktschrift
 ## Braille, Sprache und Klänge 
-- Problem: Mathematik wird als Grafik behandelt
-- **Dynamisches** Braille: Terme ersetzen durch Termbegriffe
+- **Problem**: *==Mathematik wird als Grafik behandelt==*
+- **Dynamisches** **Braille**: *==Terme ersetzen durch Termbegriffe==*
 - Sprachausgabe (mit korrekter Prosodie -> viele Tonhöhenstufen)
 - Klangausgabe
 
-## Projekt MATHS (1994-1997)
+## Projekt *MATHS* (1994-1997)
 - Mathematik lesen und schreiben
 - integriert mit
 	- Brailleausgabe/Brailleeingabe
@@ -148,30 +148,29 @@ aliases:
 		- denomi : 分子
 
 
-## Lambda Project
-- ein System zum Schreiben und Bearbeiten von mathematischen Texten für *blinde* Schüler und Studierende
+## *Lambda* Project
+- ein System zum **Schreiben** und **Bearbeiten** von ==mathematischen Texte==n für *blinde* Schüler und Studierende
 - Linearer **Lambda-Math-Code**
-	- direkt von MathML abgeleitet
-	- effiziente Benutzung von Braille-Geräten (8-Punkt-Notation) und Sprachsystemen
+	- direkt von *==MathML==* abgeleitet
+	- effiziente Benutzung von **Braille-Geräten** (8-Punkt-Notation) und Sprachsystemen
 	- mächtiges und flexibles MathematikschriftSystem, das zu den bekannten Standards kompatibel insight 
-	- in Echtzeit in MathML und in ein gebräuchliches grafisches Format **transformierbar**.
+	- in Echtzeit *==in MathML==* und in ein gebräuchliches grafisches Format **transformierbar**.
 - ![[Pasted image 20240206132656.png|400]]
 
 ## HTML und Mathematik 
 ![[Pasted image 20240206124604.png]]
 其实也不是很好，引出MathML
-
+-> HTML 重点在Text
 
 ## MathML (数学标记语言)
-
-MathML 是一种用于描述数学和科学公式的标记语言。它的全称是 "Mathematical Markup Language"，即数学标记语言。MathML 是由 W3C（World Wide Web Consortium）制定的一种XML（可扩展标记语言）应用，旨在使数学内容能够在Web页面中以结构化的方式呈现和交互。
-die Erstellung und Darstellung geeignet für Menschen und maschinelle Verarbeitung sind
+MathML 是一种用于描述数学和科学公式的标记语言。它的全称是 "*==Mathematical Markup Language==*"，即数学标记语言。MathML 是由 W3C（World Wide Web Consortium）制定的一种*XML（可扩展标记语言*应用，旨在*使数学内容能够在Web页面中以结构化的方式呈现和交互。*
+- die Erstellung und Darstellung geeignet für Menschen und maschinelle Verarbeitung sind
 
 Präsentation Markup in MathML:
 - Token Elemente
-- $mi$ für identities (Variablen)
-- $mo$ für Operatoren
-- $mn$ für Zahlen
+- $mi$ für identities (*Variablen*)
+- $mo$ für *Operatoren*
+- $mn$ für *Zahlen*
 - `<apply>` Funktionen
 
 
@@ -184,49 +183,49 @@ Präsentation Markup in MathML:
 - `apply` 代表Funktion
 - -> 大体了解
 ## OCR Analyse
-
-- Analysieren von Bildschirminhalten durch Schrifterkennung (OCR)
-- Erzeugt LaTeX, ASCIIMaths oder MathsML aus Pixeln -> Screenshots
+- **Analysieren von Bildschirminhalten durch Schrifterkennung** (*OCR*)
+- Erzeugt *LaTeX*, *ASCIIMaths* oder *MathsML* aus Pixeln -> Screenshots
 - ![[Pasted image 20240206133554.png]]
 ## Box Modell
 ![[Pasted image 20240206161459.png]]
-Ziel: visuelle Zusammenhänge in Boxes abbilden
+Ziel: *visuelle Zusammenhänge* in Boxes abbilden
 
 
 # Fallstudie 3: Multimedia Barriere
-## Projekt MultiReader
-A multimodal multimedia navigation and reading system
--> 为了克服多媒体障碍, 
+## Projekt *MultiReader*
+A *multimodal multimedia navigation* and *reading* system
+-> 为了克服多媒体障碍, 采用的 多模态多媒体系统
 ## Benutzer-Anforderungen
-> 这里讲义不严谨, 用户还包括作者. 
-- Alle Leser
-	- unterschiedliche Lesestrategien
+> 这里讲义不严谨, *用户还包括作者*. 
+- **Alle Leser**
+	- unterschiedliche *Lesestrategien*
 	- Lesezeichen (书签)
 	- Index/Inhaltsangabe (目录，摘要)
-- blinde Leser
+- **blinde** Leser
 	- steuerbare Sprache
-	- Bildbeschreibung
+	- *Bildbeschreibung*
 	- Audiodeskription
-- sehbehinderte Benutzer
-	-  variable Zeichensätze und Farben
+- **sehbehinderte** Benutzer
+	-  *variable* Zeichensätze und Farben
 	- Vergrößerung
-- gehörlose Leser
+	- 对比度
+- **gehörlose** Leser
 	- Text-basierte Beschreibung von akustischen Inhalten
 	- Bilder, Filme statt Text
 	- kurze Texte (Text-basierte Beschreibung von akustischen Inhalten)
-	- Gebärdensprachelexikon
+	- *Gebärdensprachelexikon*
 	- Gebärdensprachübersetzung von Text
-- dyslexische Leser
+- **dyslexische** Leser
 	- variable Zeichensätze, Farben, Abstände
-	- dynamische Hervorhebung
+	- dynamische *Hervorhebung* 强调
 
 ## Ein Dokument für Alle
 要实现这一目的, 就需要基于相同的内容生成多种表现形式:
 ![[Pasted image 20240206162753.png]]
 
 具体实现方式:
-- angereicherte Dokumente (xHTML (bassiert auf XML)→SMIL + Widgets für Navigation(`<tour>`,自定义标签) (多标签属性提供文字信息)
-	-  XHTML: tags () and attributes (alt="...") provide redundancy
+- *angereicherte* Dokumente (**xHTML** (basiert auf XML)→SMIL + Widgets für Navigation(`<tour>`,自定义标签) (多标签属性提供文字信息)
+	-  XHTML: *tags* () and *attributes* (alt="...") provide redundancy
 	- Synchronous Multimedia Integration Lang. (SMIL): 多媒体同一个时间轴播放
 - <mark style="background: #ADCCFFA6;">Trennen von Inhalt und Präsentation</mark> (CSS+Container)
 - Mark-up Techniken zur Beschreibung der Lesergruppen (XML)
@@ -237,13 +236,13 @@ A multimodal multimedia navigation and reading system
 - Scalable Vector Graphics (SVG)
 
 > s.49-53 Interaction 部分我不确定重要程度, 等再查一下
-## MultiReader Dokumente
+## *MultiReader* Dokumente
 > Ein MR Dokument ermöglicht die Betrachtung eines **personalisierten** Transformationsergebnisses des Inhalts durch: 
 - Auswählen des Inhalts (Video mit Gebärdensprache, Zusammenfassung) (内容的选择)
 - adaptierbaren Sichten (Schriftgröße, Farbe, temporale Adaptierungen) des angereicherten Inhalts (自适应系统)
 - Navigationstechniken basierend auf semantisch modellierten Interaktionsobjekten (语义的导航)
 
-- Für den Einsatz ist zu unterscheiden
+- Für den Einsatz ist zu **unterscheiden**
 	- **Server-basierte** Anpassung (*transaktions*-basierte Verarbeitung der Profildaten)
 	- **Client-basierte** Anpassung (*lokale* Anwendung der Profildaten) (类似于自己调整)
 
@@ -252,13 +251,12 @@ A multimodal multimedia navigation and reading system
 `<span>` verbietet für <mark style="background: #ADCCFFA6;">Inhalte</mark> "Container" zur verfügung (css+JS),来提供冗余信息
 `<div>` 通常用于组织和布局页面的结构。
 
-
-# Techniken für Benutzerprofile
-- Benutzerprofile mit behinderungsspezifischen Merkmalen
+# Techniken für *Benutzerprofile*
+- Benutzerprofile mit *behinderungsspezifischen Merkmalen*
 	- Dienen der Erstellung *adaptierbarer* und *adaptiver* Systeme
-- Profilematching erfordert Algorithmen (E-Learning Angebote personalisieren)
-- Problem des **Systems**: Datensicherheit vs. Barrierefreiheit
-- Problem der **Benutzer**: Verknüpfung von Usability und Accessibility
+- *Profilematching* erfordert Algorithmen (E-Learning Angebote personalisieren)
+- Problem des **Systems**: Datensicherheit *vs*. Barrierefreiheit
+- Problem der **Benutzer**: Verknüpfung von Usability (Gebrauchstauglichkeit) und Accessibility (Barrierefreiheit)
 
 ## Ein Model des Profileinsatzes
 - Fähigkeiten bestimmte Aufgaben und Fertigkeiten auszuführen & bestimmte Interaktionstechniken einzusetzen
@@ -283,7 +281,7 @@ A multimodal multimedia navigation and reading system
 ## Konflikte in Profilen
 
 一群人一起看电视
-解决方案：选出较多数人觉得不错的那个设置
+解决方案：选出较*多数人觉得不错的那个设置*
 
 - Feedback: Change preview
 - Stil: Tap Method
@@ -292,8 +290,8 @@ A multimodal multimedia navigation and reading system
 
 - Crowd Sourcing (让群众解决问题)
 - Kollaborative Bf.: 
-	- Barrierefreiheit wird durch Beteiligung **anderer Menschen** hergestellt
-	- ->老师用了轮椅地图的例子, 实质是一种分布式和去中心化的思维方式。谷歌街景地图也利用了这个方式
+	- Barrierefreiheit wird durch Beteiligung **anderer Menschen** *hergestellt*
+	- ->老师用了轮椅地图的例子, 实质是一种*分布式*和*去中心化*的思维方式。谷歌街景地图也利用了这个方式
 - Auftragsarbeiten
 	- einmaliger Auftrag eines Bearbeiters
 	- Bearbeitung ähnlicher Probleme durch **einen Bearbeiter**
@@ -302,5 +300,5 @@ A multimodal multimedia navigation and reading system
 - Crowd-Sourcing von Gebärden
 - Erstellen von Untertiteln (Scribe: 不同时间段的听写和合成)
 - **Kollaborative Barrierefreiheit:** 
-	- BeMyEyes nutzt Kommunikation mit *sehenden* Menschen
-	- LookTell erkennt Gegenstände autonom und nutzt Kommunikation
+	- *BeMyEyes* nutzt Kommunikation mit *sehenden* Menschen
+	- *LookTell* erkennt Gegenstände autonom und nutzt Kommunikation
