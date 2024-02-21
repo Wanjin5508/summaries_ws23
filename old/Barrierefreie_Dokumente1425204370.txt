@@ -1,0 +1,10 @@
+Modul: INF-VMI-10
+Semester: SS 2012
+Prüfer: Prof. Weber
+
+Lehrveranstaltung: Barrierefreie_Dokumente
+Prüfer: Prof. Weber
+
+- Behinderungsarten in Bezug auf Telefon (siehe erste übung, in der eine VoIP-Oberfläche gemacht werden musste)
+- Evaluation: testen, Simulation (was kann man simulieren?), ... , manuell (sehr genau) und automatisch
+- taktile Graphiken: was gibt es da so? (taktil plus audio: wie realisieren? --> berührungsempfindliche displays = hörbare Rückmeldung möglich)

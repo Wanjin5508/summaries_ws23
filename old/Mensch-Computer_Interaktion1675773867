@@ -1,0 +1,43 @@
+Modul: INF-B-530
+Semester: WS 2023
+Prüfer: Professor Weber
+
+Lehrveranstaltung: Mensch-Computer_Interaktion
+Prüfer: Professor Weber
+Also erstmal zur Athmosphäre: Es war sehr entspannt, aber man hat den Zeitdruck der 15 Minuten wirklich gespürt. 
+Dann ging es los mit der Einstiegsfrage "Was ist User Centered Design?"
+-> Konzept/Prozess zur Entwicklung von Anwendungen, die speziell auf die Bedürfnisse der Zielgruppe angepasst sind
+-> 4 Phasen: Kontextanalyse, Benutzendenanalyse, Entwurf-/Designphase, Evaluation
+-> Kontextanalyse: Zielgruppe, Aufgaben & Ziele der Zielgruppe, die mit System erfüllt werden sollen; Kontext: Umgebung (ich wollte als Beispiel das Projekt aus der Übung nehmen, da hat er mich aber unterbrochen, weil er das ja nicht kennt)
+-> Benutzenden: Personas (fiktive Personen, die die Mehrheit der Zielgruppe zusammenfassen); gibt auch welche für Randgruppen, wenn nötig
+-> Prototypen: zB Lofi(Skizzen, Mockups, ..), HiFi(klickbare Prototypen zB mit Figma)
+-> Evaluation: empirisch(mit Nutzern) & analytisch (mit Experten)
+Dann wollte er wissen, wenn man eine Anwendung erstellt, worauf man da noch achten muss (war total allgemein gestellt, bisschen doof)
+-> hab dann mit Usabilitykriterien und Dialogkriterien geantwortet
+-> Effektivität: ob Nutzer Aufgaben erfüllen können & wie gut; Effizienz: Zeit, Anzahl Klicks, evtl. Kosten, kognitive Belastung; Zufriedenstellung: Emotionen, Einstellung des Nutzers gegenüber des Systems
+Dann wollte er wissen, wie man die kognitive Belastung von Effizienz messen kann
+-> da hab ich erstmal gesagt, dass man zB bei den Installationsanweisungen beim Installieren eines neuen Programms, wenn man da nur 3 Schritte braucht & überlegen muss, was man machen soll, dass das dann kognitiv belastend ist (fand er nicht so toll, hat dann gefragt, wie man das Messen kann & da war "klicks zählen" nicht die richtige Antwort)
+-> er wollte TLX Umfrage hören
+Dann wollte er wissen, was damit gemessen wird
+-> Frustrationen, Effort, Performance, temporale Belastung, mentale Belastung, physische Belastung
+& dann was davon die Kognitive Belastung misst
+-> wusste ich nicht, bzw hab gedacht statt mentale Belastung ist es kognitive Belastung & hab das genannt, wäre Performanz gewesen (er hat aber gesagt, dass ich das schon genannt hab & dass es nicht so schlimm ist)
+Dann wollte er die Dialogkriterien hören(=Erwartungskonformität, Aufgabenangemessenheit, Steuerbarkeit, Robustheit gegenüber Fehlern, Erlernbarkeit, Selbsterklärbarkeit, Benutzerbindung)
+-> hatte 5 dann haben noch 2 gefehlt, da hat er mich dann unterbrochen, weil ich ausversehen was zwei mal genannt hab (mir wären die letzten beiden mit Sicherheit noch eingefallen) & dann hat er mich konkret nach Steuerbarkeit gefragt (was gefehlt hatte): Dazu sollte ich dann ein Interface aufzeichnen, das dem Nutzer gezeigt wird, wenn man den QR Code an der Tür in der Corona Warnapp scannen soll. 
+-> größter Teil des Bildschirms Fenster für Kamera mit quadratischem Rahmen, damit Nutzer weiß, dass er was quadratisches Scannen soll
+-> Anweisung für Nutzer, was er suchen & scannen soll unten drunter
+-> Zurückpfeil & Kreuz für Abbrechen (weil Abbrechbarkeit & Rückgängigmachen sehr wichtig für Steuerbarkeit sind)
+Dann hat er mir erzählt, dass er eine Taschenlampe hat, die einen Schalter hat & aus sein kann, ein Frontlicht hat, das an sein kann & ein Seitenlicht das an sein kann hat & mich gefragt, wie man das Darstellen oder Spezifizieren kann
+-> Übergangsdiagramm, das ich aufzeichnen soll
+-> 3 Zustände (An, Seite, Vorne) & Übergänge
+-> für die Übergänge wollte ich zwei Möglichkeiten vorstellen:
+1. dass man von aus nach an Vorne & wieder zurück gehen kann & dass man von aus nach Seite mit Doppelklick kommt (fand er ganz doof, hat mich dann auch ein Stück von der Note gekostet) - er hat mich dann unterbrochen, deswegen wusste er nicht, dass ich die zweite (richtige) Möglichkeit vorstellen wollte -> Von aus mit Klick zu Vorne & dann mit klick zu Seite & dann mit Klick Aus. 
+Dann wollte irgendwas wissen, worauf die Antwort Exzentrizität gewesen wäre & dann noch was worauf die Antwort nicht geometrisches Mittel sondern geometrisches _____ war (kannte ich nicht & hat mich noch mehr von der 1 weggebracht)
+
+Am Ende hat er dann gesagt, dass ich einen guten Überblick hatte & es das aber war. (also 2.0)
+Direkte Kriterien waren: 
+- dass ich nicht alle 7 Dialogkriterien wusste (ich konnte sie, aber er hat mich leider unterbrochen, 15 min sind nicht viel Zeit)
+- geometrisches ____ kannte ich nicht
+- das mit dem Übergangsdiagramm (obwohl ich das richtige noch nennen wollte)
+
+War halt leider bisschen doof, dass es nur 15 min sind, sonst hätte er bestimmt eher mal noch den Rest von meiner Erklärung angehört 

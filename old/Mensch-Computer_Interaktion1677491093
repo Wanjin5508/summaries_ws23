@@ -1,0 +1,20 @@
+Modul: INF-BAS3
+Semester: WS 2023
+Prüfer: Weber
+
+Lehrveranstaltung: Mensch-Computer_Interaktion
+Prüfer: Prof. Weber
+War eine Online-Prüfung, mussten noch auf den anderen Prüfer etwas warten und haben uns davor ganz entspannt unterhalten - dass es meine erste Prüfung ist, was ich sonst noch gemacht habe das Semester,... Allgemein war Prof. Weber sehr entspannt. Wenn ich mir unsicher war, wie er eine Frage meinte, dann habe ich einfach nachgefragt - war kein Problem. Er hat mir bei schwierigeren Fragen auch geholfen bzw. in die richtige Richtung bewegt.
+
+- Was ist user-centered Design?
+- Erster Meilenstein im Design? Papierprototypen, schnelles Feedback mit Mockups.
+- Evaluation für Papierprototyp? Thinking Aloud
+- Wie Mock-Up für Sprachassistent? Wizard of Oz
+- Sprachassistent auch mit Thinking Aloud testen? Ja, trennen was Anweisung was Evaluation
+- Vorher oder nachher Thinking aloud? Habe gesagt beides, in Forschung ist rausgekommen, dass danach reicht → Folgefrage: Wenn Sie das jetzt anzweifeln, wie würden Sie das wissenschaftlich beweisen? Experiment, “between group”
+- Was für andere Experiment-Arten gibt es noch? (wusste den Namen nicht mehr), habe es erklärt: dass Testperson beides macht → wollte dann noch hören, dass die Reihenfolge randomisiert werden muss
+- Was passiert an Veränderungen bei den Schichten des GUI bei einer HelloWorld-App?
+Anwendung, Toolkit, Ressourcenmanager, Windowmanager, Graphikengine,
+Display
+- Wie funktioniert es, dass es sowohl aufm Drucker (600 dpi) als auch aufm Handy (100 dpi) scharf ausgegeben wird? Vektorgraphik statt Bitmaps.
+- Wie funktioniert indoor- & outdoor-Navigation? GPS (Triangulation) & WLAN Fingerprints

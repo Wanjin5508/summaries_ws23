@@ -1,0 +1,65 @@
+Modul: INF-VERT3
+Semester: WS 2018
+Prüfer: Prof. Weber
+
+Lehrveranstaltung: Mensch-Computer_Interaktion
+Prüfer: Prof. Weber
+Gute Atmosphäre. Anfangs allgemeine Fragen, auf die man gut antworten kann. Dort am besten in die Richtung gehen, wo man sich gut auskennt. Prof. Weber geht dann oft darauf ein. Andererseits fragt er auch öfter nochmal nach, wenn er merkt, dass man es nicht genau weiß. Er lässt einen recht lange überlegen, aber manchmal hilft es dann noch auf die Lösung zu kommen.
+
+INHALT:
+
+1. Was ist User Centered Design?
+  → Kontext festlegen, Benutzerszenarien, Design Evaluation
+
+1.1. Was ist Usability?
+  → Ich glaube Effizienz, Effektivität und Zufriedenheit reicht vollkommen aus!
+
+2. Wie kann man Evaluieren?
+  → z.B. Heuristiken
+
+2.1. Was ist eine Heuristik?
+  → Annäherung
+  → Methode ist z.B. gegen Richtlinien testen
+
+2.2.1. Wie testet man Richtlinien?
+  → Experten testen und legen priorisiertes Protokoll an
+
+2.2.2. Wie würden Sie die ganzen Ergebnisse zusammenfassen?
+  → Hier wollte er auf Nielsen hinaus. (Wobei ich mich dort an keine spezielle Methode des Zusammenfassens erinnere.)
+
+2.3. Wie kann man Effizienz testen?
+  → GOMS + Erklärung
+
+2.3.1. Wozu nutzt man GOMS?
+  → Verschiedene Abläufe vergleichen.
+
+2.3.2. Würde man GOMS auch dazu nutzen, E-Mail-Programme auf Mac gegen Linux zu testen?
+  → Hier wusste ich nicht genau, worauf er hinaus wollte. (Das GOMS er zum Testen innerhalb einer Software gedacht ist, hat nicht gereicht!)
+
+2.4. Weitere empirische Methoden?
+  → Fitts' Law
+
+2.4.1. Lebt dieser Fitts noch?
+  → Hier war ich verwirrt, aber scheinbar lebt er nicht mehr (Geboren 1912!).
+
+2.4.2. Wie sah der damalige Testaufbau aus (zeichnen)?
+  → Wusste ich nicht. War ein Papierstreifen mit mehreren Kreisen, auf die die Probanden tippen sollten, aufgezogen auf einer Spule.
+
+2.4.3. Wie lautet die Formel?
+  → Aufschreiben und erläutern.
+
+2.4.4. Wenn ich die Maus über meinen kleinen Laptop steuer und auf meinen großen Bildschirm (doppelt so groß) schaue, halbiert sich dann die Dauer?
+  → Keine konkrete Antwort, es ging aber glaube darum, was passiert, wenn man den Weg verdoppelt/ halbiert.
+
+2.4.5. Was muss ich machen, wenn ich die Breite des Ziels halbiere und die Dauer gleich lassen möchte?
+  → Die Distanz verdoppeln (einfache Mathematik). ;)
+
+2.4.6. Wenn ich die Maus mit einem neuartigen Zeigeinstrument vergleichen möchte, was muss ich machen?
+  → Hier habe ich mich schwer getan, es lief erstmal darauf hinaus, dass a und b zu ermitteln sind.
+
+2.4.6. Wie ermittel ich a + b?
+  → Tests mit Probanden machen und in Koordinatensystem auftragen. (Er hat eins aufgemalt mit t als y-Achse.)
+  → a ist die Amplitude und b die Steigung.
+
+2.4.7. Wie kommt man darauf?
+  → Er wollte einfach nur hören, dass man eine Regression macht. (Ich dachte das wär zu banal! :D )

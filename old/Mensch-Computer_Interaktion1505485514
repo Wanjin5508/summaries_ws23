@@ -1,0 +1,46 @@
+Modul: INF-VMI-10
+Semester: SS 2017
+Prüfer: Prof. Weber
+
+Lehrveranstaltung: Mensch-Computer_Interaktion
+Prüfer: Prof. Weber
+
+Was ist User Centered Design?
+-> Habe den "Lebenszyklus" der Benutzungsoberfläche beschrieben
+
+Was für Arten von Kontext gibt es?
+-> Arbeitsplatz, Auto, Haus hat ausgereicht
+
+Überleitung zu Gebrauchtstauglichkeit und Evaluationsmethoden. Was gibt es dort für Arten?
+-> Empirische Methoden, Experten/Analytische Methoden
+
+Prof. Weber hat eine Tabelle mit verschiedenen Evaluationsmethoden vorgelegt.
+
+Welche Methoden können genutzt werden um Effizienz zu evaluieren?
+-> GOMS sollte ich im Detail erklären, "was genau ist ein Operator?"
+-> Bei solchen Dingen nicht gleich das erste wählen sondern Überlegen welches man am besten erklären kann ;)
+
+Was ist Thinking Aloud und was evaluiert es?
+-> kurz erklären, evaluiert Effektivität
+
+Was passiert bei einer Heuristischen Evaulation?
+-> Expertenanalyse anhand von Richtlinen..
+"Wie würden sie dabei vorgehen wenn sie jetzt bei z.B. T-Systems in einer Projektgruppe arbeiten würden?"
+-> Es lief darauf hinaus, dass mehrere Experten benötigt werden.
+Was gibt die Heuristische Evaluation als Ausgabe?
+-> Protokoll mit Problemen und konstruktiven Vorschlägen, Einordnung nach Priorität (kritisch, etc.)
+
+Fitt's Law: Formel aufschreiben und kurz beschreiben.
+-> planare 2D Zeigehandlungen ist ein Schlüsselwort bei der Beschreibung der Anwendung
+Annahme von neuartigem Zeigeinstrument - wie nutzen wir Fitt's Law?
+-> Vergleich von Zeiten bei verschiedenen Zeigehandlungen, etc.
+Wie kann das Gesetz erweitert werden?
+-> Breite mit einbeziehen, Produkt aus Breite und Höhe, Mittelpunkt des Objekts, etc.
+Wo kann das Gesetz nicht angewendet werden?
+-> Augebewegungen (Sakkaden), 3D-Objekte
+Irgendwie kam noch eine Frage die ich nicht verstanden habe. Es lief darauf hinaus, dass die Werte für a+b bei Mausinteraktion vorhanden sind und einfach irgendwo nachgeschaut werden können (im Gegensatz zu dem neuartigen Zeigeinstrument)
+
+Zeitliche Wahrnehmung und Toleranz
+-> Auflistung der Punkte unter "Management der Wahrnehmung/Toleranz"
+-> Wahrnehmung: Vorzeitiger Start, Frühes Ende, Fortschrittsanzeige, Ablenkung
+-> Toleranz: Übererfüllung, Qualität der erwartenden Leistung, etc

@@ -1,0 +1,17 @@
+Barrierefreie (elektronische) Dokumente
+WS 2009/2010
+Prof. Weber
+
+Wen betrifft Barrierefreie Dokumente? (Usergruppe)
+Welche Behinderungen gibt es? Was ist eine Behinderung?
+Was sind Barrieren?
+Wie kann man Barrieren evaluieren?
+ Manuelle Evaluation
+ Automatische Evaluation (vertieft)
+ Wie kann man Websites miteinander vergleichen bzgl Barrierefreiheit?
+ EARL
+Was ist mit JavaScript? (Probleme, Lösungen)
+Tabellen: Probleme, Leerfelder, Wie lösen?
+Was ist ein Screenreader? Funktionsweise? (auch dann Bezug zu JavaScript)
+
+-

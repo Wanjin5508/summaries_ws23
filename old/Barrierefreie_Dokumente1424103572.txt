@@ -1,0 +1,11 @@
+Modul: INF-VMI-10
+Semester: WS 2013
+Prüfer: Prof. Weber
+
+Lehrveranstaltung: Barrierefreie_Dokumente
+Prüfer: Weber
+- Behinderungsarten in Bezug auf Taschenrechner (auch alle anderen nennen, genauer auf körperliche Behinderungen eingegangen)
+- Screenreader (Aufgaben, woher Infos für zB Linien in EXCEL)
+- Evaluation (Arten, genauer dann manuelle und automatische)
+- Barrierefreie Tabellen (er hat eine aufgemalt mit Leerzelle, mehrfachen Zelleninhalten und verbundenen Zellen: erklären wo Barrieren liegen und Lösungen)
+- dynamische Inhalte (wie kenntlich machen: Stichwort ARIA. Beim Chat: wie auf Braillezeile immer das aktuelle?) 

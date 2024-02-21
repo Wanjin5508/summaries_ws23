@@ -1,14 +1,14 @@
 # Einführung
 ## Barrierefreiheit (Accessibility)
 > Def. *Barriere*:
-> Einschränkungen bei wichtigen täglichen Aktivitäten (zur Schule gehen, Buch lesen...) vermeiden
+> **Einschränkungen** bei wichtigen täglichen Aktivitäten (zur Schule gehen, Buch lesen...) vermeiden
 > 
-> **Nicht** definiert sind: "barrierearm", "zugänglich"
+> **Nicht** definiert sind: "*barrierearm*", "zugänglich"
 > 
-> Barrierefreiheit ist das Ausmaß in dem Systeme oder Dienstleistungen von Menschen im weitesten Sinne genutzt werden können.
+> **Barrierefreiheit** ist das Ausmaß in dem Systeme oder Dienstleistungen von Menschen *im weitesten Sinne* genutzt werden können.
 
-### **障碍的产生**
-Neue Formen der MC-Kommunikation erzeugen Barrieren, wenn ihre **Adaptierung** nicht bekannt ist, (bspw. GUI->Pixel-Barriere, VR->Nicht-visuelle Immersion, Sprachassistenten->Sprechvermögen als Barriere).
+### 障碍的产生
+*Neue Formen* der MC-Kommunikation erzeugen Barrieren, wenn ihre **Adaptierung** nicht bekannt ist, (bspw. GUI->Pixel-Barriere, VR->Nicht-visuelle Immersion, Sprachassistenten->Sprechvermögen als Barriere).
 
 ### 区分: Usability vs. Accessibility
 - Wahrnehmbarkeit (Multimedien 来传达信息)

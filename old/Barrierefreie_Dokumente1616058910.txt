@@ -1,0 +1,10 @@
+Modul: INF-B-530
+Semester: WS 2020
+Prüfer: Weber
+
+Lehrveranstaltung: Barrierefreie_Dokumente
+Prüfer: Weber
+angenehme Atmosphäre, Herr Weber versucht einen auf die Sprünge zu helfen und lässt Zeit zum nachdenken
+
+Es kam dran:
+Smart TV Barrieren; Reglungen Barrierefreiheit im Internet (WCAG, BITV) und welche Kriterien (Benutzbarkeit, Wahrnehmbarkeit,..); Evaluationsmethoden (Benutzer, manuell, ..) dann was bei Opal Anforderungen an eine automatisierte Evaluation (Crawling, Testdaten für Befüllen Opal-Tests notwendig)

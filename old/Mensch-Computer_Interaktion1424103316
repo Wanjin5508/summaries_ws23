@@ -1,0 +1,26 @@
+Modul: INF-VMI-10
+Semester: WS 2011
+Prüfer: Prof. Weber
+
+Lehrveranstaltung: Mensch-Computer_Interaktion
+Prüfer: Weber
+- User centered design
+- erklären
+- wie möglichst kostengünstig und früh umsetzen [Stereotypen für Benutzer/Umgebung, MockUps, Heuristiken]
+- wie werden Probleme in einem Bericht am besten dargestellt [Priorisieren, Nielsen -> "Katastrophe,..."; Frage wurde wohl nicht mit gewertet weil Übungsstoff]
+
+- Evaluationstechniken (an der Übersichtsfolie)
+- Welche eher empirisch [Rohdaten für einzelne "operator" bei GOMS, Fragebogen, Usability Tests), welche heuritisch (Richtlinien, GOMS)?
+- welche mit Benutzern [Fragebogen, Usability Test], welche mit Experten [cognitive walkthrough, Richtlinien]?
+- Alle Techniken kurz erklären
+- Was gehört alles zu Usability? [Effektivität, Effizienz, Zufriedenheit]
+- Wie evaluiert man Zufriedenheit? [Interview, Beobachtung, TLX -> kurz erklären, nur Kriterien nicht die Auswertung]
+
+- Zustandsdiagramme
+- erklären
+- Was ist mittlerer Bedienaufwand? [Floyd-Warshall für kürzeste Wege -> *geometrisches* Mittel]
+- Zustandsdiagramm nach Jacob zu Rollbalken (an der Folie)
+- erklären
+- Was beschreiben die Begriffe an den Übergängen? [Ereignisse, vorher als "Token" definiert]
+- Was passiert wenn Maus Bereich verläßt während Taste gedrückt? [Zustandsübergänge durchgehen und erklären]
+- Was wenn sie wieder zurückkommt? [je nach Implementation von "SHOWBAR"]

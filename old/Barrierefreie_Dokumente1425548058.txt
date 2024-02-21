@@ -1,0 +1,21 @@
+Modul: INF-BAS1
+Semester: WS 2014
+Prüfer: Prof. Weber
+
+Lehrveranstaltung: Barrierefreie_Dokumente
+Prüfer: Prof. Weber
+Eindruck:
+Sehr holpriger Start, da ich erst erklären musste warum ich die VERT1-Prüfung als BAS1 machen kann, was einen zunächst verunsichert. Weiterhin erklärt Prof. Weber viel um die eigentliche Frage herum, statt sie einfach zu stellen. Man traut sich nicht ihn dabei zu unterbrechen und in der Auswertung sagt er dann, dass man die Fragen nicht sofort beantworten konnte. Also lieber unhöflich sein und drauf los plaudern. Zeitlich dauerte die Prüfung auch fast doppelt so lang wie vorgesehen.
+Von den Übungen, die dazu dienen sollten, dass bei Bestehen in der Prüfung das Thema nichts dran kommt, war nichts zu sehen. Zum Einen waren zum Zeitpunkt der Prüfung 2 von 6 Übungen korrigiert und zum Anderen wurde selbst das Quiz nicht einmal ausgewertet, sodass einem die Übungen absolut gar nichts bringen, außer sich mit dem Thema beschäftigt zu haben und kostenlos für den Lehrstuhl gearbeitet zu haben.
+
+Inhalt:
+- Aufzählen von Behinderungen und Erklären an Beispielen, welche Probleme bei Browsern auftreten und Lösungen aufzeigen
+- Wie kann man Barrierefreiheit evaluieren? (manuell, automatisch, Simulation, Evaluierung, ...)
+  - wie sieht Simulation aus?
+  - wie lassen sich Resultate verschiedener autom. Evaluations-Tools vergleichen? → EARL
+- Unterschied mp3-Hörbücher zu Daisy-Hörbücher als Einleitung
+  - Erklärung Aufbau daisy. SMIL, NGX, ...
+- Mögliche Wahl zwischen MathML und Web (ich wählte Web, obwohl Prof. Weber dann trotzdem kurz auf MathML einging, aber nur erzählte und nicht viel wissen wollte)
+- Untertitel im Web
+  - Unterschied captions und subtitles
+  - ARIA/WCAG

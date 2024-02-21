@@ -1,0 +1,31 @@
+Modul: INF-VMI-10
+Semester: SS 2012
+Prüfer: Prof. Weber
+
+Lehrveranstaltung: Mensch-Computer_Interaktion
+Prüfer: Weber
+Vorab: Prüfungsatmosphäre war, wie andere schon berichteten, sehr entspannt. Prof. Weber fängt mit einer leichten Einstiegsfrage an und hangelt sich dann meist an Dingen weiter, die man selbst sagt - also aufpassen :P Wenn ich mal nicht weiter wusste, hab ich das so gesagt - meistens gibt's dann noch einen Hinweis, danach falls immer noch nix kommt Themawechsel, finde ich echt fair.
+Eine Sache noch: Prüfung lief bei mir ziemlich gut, dadurch waren die Fragen aber z.T. ziemlich schwer, da Prof. Weber die 1,0 herauskitzeln wollte (was nicht geklappt hat). Ich schreibs bei den entsprechenden Fragen dazu.
+
+MCI:
+- Was sind Grundlagen der Dialoggestaltung?
+-> ISO 9241-110
+- Was meint Steuerbarkeit (s.o.)?
+-> Nutzer kann immer Initiative übernehmen
+-> System "macht nicht zu", akzeptiert immer Eingaben
+- Was ist ein modaler Dialog?
+-> nicht "wegklickbar"; fordert Eingabe
+-> Schließen durch z.B. OK/CANCEL
+- Wie werden Eingabeevents verarbeitet, z.B. wenn man die Maus nicht mehr auf dem modalen Dialog bewegt, sondern z.B. auf die Taskleiste?
+-> Nebenläufigkeit der Events, parallele Verarbeitung
+- Wie werden Events im System verarbeitet, denken Sie an das Schichtenmodell, welche Objekte verwaltet der Ressourcenmanager?
+-> Frage lief auf die Grafik zu Fenstersystem / Fensterverwaltung hinaus, MCI3_System.pdf S. 15 "Komponenten eines Fenstersystems", die wollte er ziemlich genau hören
+-> dass ich "Nebenläufigkeit" erwähnt habe, gefiel ihm gut, leider konnte ich die Folgefragen zu dem o.g. Schichtenmodell (speziell Ressourcenmanager) dann überhaupt nicht beantworten
+-> habe ihm stattdessen dann die Grafik von S. 30 aus MCI3_System hingemalt ("Hauptkategorien von GUI-Werkzeugen"), wollte er zwar nicht hören, aber er hat's wohl zur Kenntnis genommen; kam auch später (s.u.) auf automatisch generierende Werkzeuge zurück
+- Was ist direkte Manipulation?
+-> Definition, vier Kriterien: 1. alle Interaktionsobjekte sichtbar; 2. sofortige Rückmeldung auch kleinster Interaktionen; 3. Aktionen sind abbrechbar; 4. Aktionen rückgängig machen können
+- Welche Schritte sind bei der automatischen GUI-Generierung nötig?
+-> (Meta-)Modellierung; Aufgabenanalyse und Modellierung, speziell wollte er CTT hören (ConcurTaskTrees)
+-> hat dann sehr genau zu CTT nachgefragt, hatte nur noch drauf, dass man die Aufgabentypen einteilt in User/System/Interaction Tasks
+-> Prof. Weber wollte noch auf Modellierung von Nebenläufigkeit hinaus, daraufhin bin ich auf den Trichter gekommen und habe die Kantentypen bei CTT noch erläutert (Sequence, Choice, Parallel)
+-> Würde sagen das hier war definitiv eine 1,0-Frage

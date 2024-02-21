@@ -1,0 +1,16 @@
+Modul: INF-B-530
+Semester: SS 2018
+Prüfer: Prof. Weber
+
+Lehrveranstaltung: Barrierefreie_Dokumente
+Prüfer: Prof. Weber
+Sehr freundliche Atmosphäre, Fragen werden häufig mit Anekdoten, Beispielen oder Witzen angereichert. Prüfung für MCI und BDF dauerte zusammen nur 30 Minuten, was relativ wenig Tiefe in den einzelnen Themen zuließ. Professor Weber möchte die Initiative eher beim Prüfling wissen, also: lieber viel erzählen und wenig Raum für Nachfragen lassen.
+
+
+Inhalt:
+
+-Barrieren und Behinderungsarten am Beispiel Smartphone (sehr genau, wirklich an Alles denken!).
+-Barrieren im Web (freie Auswahl, Dinge nennen die man auch genau erklären kann).
+-Genauer: Was macht man bei Bildern?
+-Mathematische Formeln als Bild -> Wie funktioniert MathML?
+-Wie mit Karten umgehen?

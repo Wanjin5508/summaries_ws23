@@ -1,0 +1,49 @@
+Modul: INF-B-530
+Semester: SS 2018
+Prüfer: Prof. Weber
+
+Lehrveranstaltung: Mensch-Computer_Interaktion
+Prüfer: Prof. Weber
+Ablauf:
+
+1.) User Centered Design (UCD)
+a) Allgemein
+Herr Weber wollte dies einfach erklärt haben. Also den Zyklus, noch allgemein interessante Infos (Heuristiken, Stereotypen und Mock-Ups helfen für frühe und kostengünstige Entwicklung)
+b) Kleine Anwendung
+Herr Weber nannte als Beispiel die Plattform selma und wollte wissen, warum diese aus Sicht des UCD geschlossen wird. Meine These war, dass der Student als Benutzer zu sehr im Fokus war, Herr Weber griff noch den Nutzer Datenschutzbeauftragter auf und meinte, dieser sei vernachlässigt worden.
+
+2.) Usability
+Die Frage waren zuerst die grundlegenden Kriterien der Usability (Effektivität, Effizienz, Zufriedenheit) und anschließend, inwiefern die Usability beim Sicherheitsaspekt (bezog sich noch auf die selma-Aufgabe) leidet. Meine These war, dass diese stark leidet, sobald der Nutzer sich über die mangelnde Sicherheit im Klaren ist. Herr Weber hat das so durchgehen lassen (denke ich ^^).
+
+3.) Evaluation
+Herr Weber legte die Tabelle mit den Evaluationsmethoden vor (siehe Vorlesungsfolie) und wollte wissen, welche davon die Effektivität testen können. Ich wusste an dieser Stelle leider nicht, was genau Effizienz und Effektivität sind (lernt das unbedingt!!!) und habe dann einfach geraten (schlechte Idee). Die heuristische Evaluation ist ein Beispiel dessen, Herr Weber wollte kurz wissen, was genau Heuristiken sind. Performanztests waren ein weiteres Beispiel, hier wollte er wissen, was genau hinter diesen Tests steckt. Ich habe korrekt auf Fitt's Law getippt. Das führt zu
+
+4) Fitt's Law
+a) Allgemein
+Ich sollte nur kurz erklären, was dieses beschreibt, die eigentliche Formel wollte Herr Weber gar nicht erklärt haben. Er wollte konkret auf die Begriffe "Größe" und "Entfernung" aus. 
+b) ???
+Hier ist mir nicht ganz klar, was Herr Weber genau wollte, es ging um die Variablen a und b bei Fitt's Law und wie diese erstellt werden. Er stellte auch die Frage, ob Fitt's Law für Gruppen oder einzelne Menschen gilt. Er wollte auch auf den Begriff "Kontext" aus, aber hier verstand ich leider nur Bahnhofund wir redeten aneinander vorbei.
+
+5.) Fenstersysteme
+Als Beispiel wurde von Herrn Weber ein Hello-World-Programm angegeben. Die Frage war, was auf den verschiedenen Ebenen des Fenstersystems (siehe Folie) getan wird. Folgend eine kleine Strukturierung (und grob vereinfacht):
+a) Anwendung
+Das Programm selbst, gibt Befehle an 
+b) Toolkit
+Ansammlung an Dialogtechniken, es wird eine Dialogtechnik (Herr Weber wollte den Begriff "Label" hören) genutzt bzw. aufgerufen, die für Ausgaben zuständig ist.
+c) Fensterverwaltung
+Gibt das Ganze in einem Fenster aus, beschränkt sich nur auf das Fenster
+d) Ressourcenverwaltung
+Erste Frage: Was macht sie (Antwort: Ressourcen allokieren und deallokieren hat gereicht)? Nimmt Speicher für den String, greift auf die Objekte "Fenster", "Farbtablette" und "Schriftarteneinsatz" zu, anscheinend gab es weitere, ich habe einfach geraten (wieder schlechte Idee).
+e) Grafikengine
+Frage: Was macht sie (Antwort: Grundlegende Objekte über Hardwaretreiber zur Verfügung stellen)? Weiter wollte Herr Weber wissen, welche Möglichkeiten diese besitzt (Habe die Eingabefunktionen genannt, Herr Weber nannte CLipping und wollte wissen, was dies bedeutet).
+
+Dann war die Zeit (nur 15 Minuten) rum.
+
+Generelle Tipps:
+
+- Nicht raten. Das mag Herr Weber gar nicht. 
+- Wenn man Quark im Kopf hat, diesen nicht noch wiederholen, wenn Herr Weber das als Bullshit deklariert hat. Klingt logisch, kommt aber in der Stresssituation schnell mal vor.
+- Wenn Herr Weber bewusst nachhakt oder skeptisch andere Themen anschneidet, darauf eingehen und Aussage ggf. relativieren.
+- Gute Vorbereitung ist das A und O, geht aber genau auf Herr Webers Fragen ein bzw. lasst diese genau auf euch eingehen, sie sind streckenweise sehr ungenau gestellt. Ich war gut vorbereitet, habe aber oft nicht verstanden, worauf er hinauswollte und daher habe ich ständig an dem vorbeigeredet, was er eigentlich wissen wollte. Das hat die Note ziemlich gedrückt. 
+
+Bedenkt das und die gute Note wird mit euch sein. ;-)

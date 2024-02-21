@@ -1,0 +1,47 @@
+Modul: INF-VERT3
+Semester: WS 2018
+Prüfer: Prof. Weber
+
+Lehrveranstaltung: Barrierefreie_Dokumente
+Prüfer: Prof. Weber
+Gute Atmosphäre. Anfangs allgemeine Fragen, auf die man gut antworten kann. Dort am besten in die Richtung gehen, wo man sich gut auskennt. Prof. Weber geht dann oft darauf ein. Andererseits fragt er auch öfter nochmal nach, wenn er merkt, dass man es nicht genau weiß. Er lässt einen recht lange überlegen, aber manchmal hilft es dann noch darauf zu kommen.
+
+INHALT:
+
+1. Was gibt es für Barrieren und für welche Personengruppen gelten sie besonders? Nennen Sie bereits mögliche Lösungen.
+
+2. Welche Barrieren gibt es in Bezug auf ein Handy?
+  → Display, Ausgabe, Steuerbarkeit
+
+2.1. Welche Probleme hätte jemand Taubes beim Telefonieren?
+  → Hört Gegenüber nicht.
+  → Lösung ist Videotelefonie per Gebärdensprache
+
+2.3. Welche Probleme hätten körperlich Behinderte?
+  → Steuerung des Handys.
+  → Lösung kann Sprachsteuerung sein.
+
+2.3.1. Wie könnte eine Person ohne Arme noch das Handy steuern?
+  → Hier ist mir nichts außer Sprachsteuerung eingefallen. (Vielleicht wollte er auf Eyescrapping hinaus oder andere Bluetooth-Controller.)
+
+3. Was ist ein Screenreader?
+  → Kurze Erklärung. Ich bin noch auf die Architekturen (Bottom-up,...) eingegangen.
+
+3.1. Nennen sie ein konkretes Beispiel.
+  → NVDA
+
+4. Welche Barrieren gibt es im Browser?
+
+4.1. Was soll im Alt-Tag stehen?
+  → Kurz und knapp oder gar nichts bei Dekoration.
+
+4.1. Was würden sie bei einem Bild von einer Karte der TU Dresden machen?
+  → Lange Beschreibung "longdesc" bzw. Verweis auf andere Seite (Hat ihm nicht richtig ausgereicht.)
+  → Ausdruck als taktile Grafik (Er wollte eher digital bleiben. ;) Vllt. gibts hier noch was besseres.)
+
+4.2. Wie sieht es bei mathematischen Formeln aus?
+  → Einfach: Latex in alt-Tag
+  → Erweitert: MathML (Content & Presentation Markup)
+
+4.3. Hier wollte er nochmal wissen, wie man Gleichungen umsetzt.
+  → Funktion-Tags + ci / cn
