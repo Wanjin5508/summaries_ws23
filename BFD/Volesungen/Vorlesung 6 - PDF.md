@@ -1,7 +1,7 @@
 ---
 date: 2024.2.3
 tags:
-  - MCI
+  - "#BFD"
 aliases:
 ---
 # 简介

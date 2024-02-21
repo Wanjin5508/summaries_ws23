@@ -1,4 +1,4 @@
--> Prüfen der Barrierefreiheit: die in der VL aufgelisteten Evaluationsmethoden:
+-> Prüfen der Barrierefreiheit: die in der VL aufgelisteten *==Evaluationsmethoden==*:
 - [[#E-Methode Evaluieren mit Benutzern]]
 - [[#E-Methode Manuelle Prüfung der Barrierefreiheit]]
 - [[#E-Methode Automatisiertes Prüfen von Barrierefreiheit]]
@@ -6,7 +6,7 @@
 - [[#E-Methode Barrier Walkthrough]]
 
 ## **Kriterien von unterschiedlichen Methoden:**
-- Vollständigkeit: wie umfangreich ist Barrierefreiheit erfasst
+- Vollständigkeit: wie *umfangreich* ist Barrierefreiheit erfasst
 	- -> false negative, 既然是检验, 就要考虑4个标准。这里检验无障碍的范围, 那么正常人也要考虑在内
 - Korrektheit: falsche Warnungen (false positive)
 - Detaillierungsgrad: automatische / manuelle / generische Tests
@@ -15,16 +15,15 @@
 - Kosten, Reliabilität, Sprache... 
 
 # E-Methode: Evaluieren mit Benutzern
-
-- Labortest: Thinking-Lound-Potokoll
+- Labortest: *==Thinking-Lound-Potokoll==*
 - Sonderfall: Remote Usability Test
 ## Mockup/Prototyp
-> frühe Evaluation: *Mockup*
-- taktile Mockups für blinde Benutzer möglich 
+> **frühe** Evaluation: *Mockup*
+- *taktile* Mockups für blinde Benutzer möglich 
 	- 2D: Brailledrucke
 	- 3D: Holz, Karton, Papier
 	- ![[Pasted image 20240205110024.png|300]]
-> späte Evaluation: *Prototyp*
+> **späte** Evaluation: *Prototyp*
 - Aufzeichnung von entfernten und lokalen Abläufen möglich
 - Aufzeichnung der AT wird derzeit kaum unterstützt
 	- Audio über Mikrofon
@@ -41,50 +40,50 @@ initiale Form -> [[#Sichten|manueller Evaluationsprozess]] -> Bericht
 [[#**Kriterien von unterschiedlichen Methoden **]]
 ### Sichten
 - Checkpoints/ [[Vorlesung 3 - Evaluation#Kriterien|Kriterien]]
-- Evaluationsanweisungen
+- Evaluationsanweisungen
 - Seite mit CSS
 - Code Ansicht
 - Evaluations Ergebnisse
 - vielfältige Browser und Hilfsmittel und Tools
 
 ### Besonderheiten von Manuelle  Evaluation
-- Farbe
-- CSS abschalten (Textlesbarkeit bestimmen)
-- Lineraisierung (text-only)
-- Textlesbarkeit bestimmen
+- **Farbe**
+- **CSS** abschalten (Textlesbarkeit bestimmen)
+- **Lineraisierung** (text-only)
+- **Textlesbarkeit** bestimmen
 	- Einsatz von CSS im Quellcode überprüfen
-- Textverständlichkeit prüfen
+- **Textverständlichkeit** prüfen
 - WebFormator linearisiert
-- Struktur evaluieren
+- **Struktur** evaluieren
 	- Überschriften: Quellcode filtern und einblenden
 	- Verweise: Zählung einblenden
 	- Listen: Quellcode filtern und einblenden
 - Grafik evaluieren: Alt-Text
-- Dynamische Inhalte: alle zeitlich Änderungen spätestens nach wenigen Sekunden über Schalter kontrollierbar?
+- **Dynamische** Inhalte: alle zeitlich Änderungen spätestens nach wenigen Sekunden über Schalter kontrollierbar?
 - Interaktion und Formulare
-	- WAVE Toolbar erlaubt Visualisierung von *Regionen* und Mark-up in der Browseransicht
+	- **WAVE Toolbar** erlaubt Visualisierung von *Regionen* und *Mark-up* in der Browseransicht
 	- ![[Pasted image 20240205114626.png|400]]
 - Inspektion für Javascript (Firefox Accessibility Extensions (FAE)
 	- Untersuchung der ARIA Widgets (Role, Tab Index, Wert)
 
 ### Prüfwerkzeuge fehlen für
-- Audio (Spracherkennung möglich, jedoch nur bei isolierten Sprechern anwendbar)
-- Video: Manuelle Erstellung von Untertiteln -> automatische Übersetzung
-- Komponenten / Plugins
-- Interaktion: Navigation nicht genügend sicher bewertbar
+- **Audio** (Spracherkennung möglich, jedoch nur bei isolierten Sprechern anwendbar)
+- **Video**: Manuelle Erstellung von Untertiteln -> automatische Übersetzung
+- Komponenten / **Plugins**
+- **Interaktion**: Navigation nicht genügend sicher bewertbar
 
 # E-Methode: Automatisiertes Prüfen von Barrierefreiheit
 ## Automatisiertes Testen
-Einige Eigenschaften von Barrierefreiheit lassen sich automatisiert prüfen, dazu ist notwendig:
+*Einige Eigenschaften* von Barrierefreiheit lassen sich **automatisiert** prüfen, dazu ist notwendig:
 ### 要点
 - Definition einer Teilmenge von [[Vorlesung 3 - Evaluation#Beschreibung von Richtlinien|Prüfregeln]]
 	- spezifisch vs. allgemein
-- Eineindeutige Referenz auf das Testobjekt
+- *Eineindeutige Referenz* auf das Testobjekt
 	- statisch vs. dynamisch
 - Berichtsgenerierung
 ### Arten von autom. Werkzeugen
-- Evaluationswerkzeuge untersuchen Seiten **statisch**
-	- **allgemein**, eventuell nach mehreren Richtlinien
+- ==Evaluationswerkzeuge== untersuchen Seiten **statisch**
+	- **allgemein**, eventuell nach *mehreren Richtlinien*
 	- **speziell**, z.B. nach ausreichendem Farbkontrast
 - Reparaturwerkzeuge: darüber hinaus in den HTML Text einzugreifen
 - Filter- und Transformationswerkzeuge kritisieren und unterstützen den Benutzer bei der Analyse direkt
@@ -97,32 +96,32 @@ Einige Eigenschaften von Barrierefreiheit lassen sich automatisiert prüfen, daz
 	- SMIL. TIME
 	- SVG
 - meist nicht für ganze Websites anwendbar
-- derzeit nicht automatisiert prüfbar, z.B.
+- *derzeit nicht automatisiert prüfbar*, z.B.
 	- Navigation
 	- einfache Sprache
 	- Einfluß des Hilfsmittels
 
 ### Websites bewerten: Crawling (爬取)
-- URL Sammlung ist meist ein FIFO
-- Gefundene URLs müssen normalisiert werden
+- URL Sammlung ist meist ein **FIFO**
+- Gefundene URLs müssen *normalisiert* werden
 - VGI Parameter manuell durch Scripte nachbilden
 ![[Pasted image 20240205121048.png|400]]
-Laden und Parsen einer Seite ist zeitintensiv -> Multithreaded Crawling (加快速度 -> 多线程爬取)
+Laden und Parsen einer Seite ist zeitintensiv -> Multithreaded Crawling (加快速度 -> 多线程爬取) --> 也要考虑sitemap
 #### HFA und HPA (状态机) zu Modellieren der Navigation
 - Ein *Hypertext Finite Automaten* (**HFA**) beschreibt das Internet
-- Ein *trail* besteht aus einer Sequenz von Seiten, die besucht werden
+- Ein *trail* besteht aus einer *Sequenz von Seiten*, die besucht werden
 - ***Problem***: URLs sind zeitabhängig
 - -> 不确定能否获取某个URL中的资源, 那就用probabilistischer Ansatz来描述导航过程。Jeder Zustandsübergang in einem **HFA** wird mit einer Wahrscheinlichkeit beschrieben.
-- Es entsteht ein *Hypertext Probabilistic Automata* (**HPA**)，der **HPA** die Navigationsmuster eines Benutzers beschreibt und die Übergangswahrscheinlichkeiten geben wie häufig der Benutzer eine Verknüpfung verfolgt hat.
+- Es entsteht ein *Hypertext Probabilistic Automata* (**HPA**)，der ***HPA*** die **==Navigationsmuster==** eines Benutzers beschreibt und die **==Übergangswahrscheinlichkeiten==** geben wie häufig der Benutzer eine Verknüpfung verfolgt hat.
 ![[Pasted image 20240205121708.png]]
 
 ### Auswahl der Werkzeugen 
 - TAW
 	- Mehrere Darstellungsformen
-	- Nach Richtlinien grupiert
+	- Nach *Richtlinien* gruppiert
 ![[Pasted image 20240206113424.png]]
 - Monitoring Systeme
-	- Monitoring von Barrieren über einen Zeitraum
+	- Monitoring von Barrieren *über einen Zeitraum*
 ![[Pasted image 20240206113602.png]]
 ### Beschreibung von Richtlinien
 
@@ -142,7 +141,7 @@ Laden und Parsen einer Seite ist zeitintensiv -> Multithreaded Crawling (加快�
 
 
 # E-Methode: Simulation
-Simulation von Präsentation bildet Wahrnehungsdefizite nach
+Simulation von Präsentation bildet ***Wahrnehungsdefizite*** nach
 - Sehbehinderung 
 	- (Netbeans IDE)
 		-  Simulation von Netzhautveränderungen
@@ -153,26 +152,28 @@ Simulation von Präsentation bildet Wahrnehungsdefizite nach
 - Hörbehinderung 
 	- Simulation der akustischen Wahrnehmung
 - Sim. physikalischer Behinderung 
-	- Modellierung des Verhaltens bei der Eingabe per sequentieller Tastatur („Scanning keyboard“)
+	- Modellierung des Verhaltens bei der **Eingabe** per *sequentieller Tastatur* („Scanning keyboard“)
 		- Wahrnehmungsmodell 
-		- Kognitives Modell entscheidet auf Basis visueller Wahrnehmung
+		- ==*Kognitives Modell*== entscheidet auf Basis visueller Wahrnehmung
 		- 8 Richtungen werden im motorischen Modell berücksichtigt
-# E-Methode: Barrier Walkthrough
+# E-Methode: Barrier Walkthrough 排练
+> [!Note]
 > **Heuristische** Methode um Barrierefreiheit zu evaluieren
-> Grundidee: Liste von typischen Fehlern überprüfen, Reliabilität betonen
-> **Expertentext** im Kontext von Benutzungsszenarien
+> 
+> ***Grundidee***: Liste von **typischen Fehlern** überprüfen, **Reliabilität** betonen
+> -> **Expertentext** im Kontext von Benutzungsszenarien
 
-Schrittfolge:
-- Definiere Benutzerprofil (z.B. Art der Behinderung)
-- definiere Benutzerszenarios (z.B. Hilfsmittel, Ziele)
-- Bestimmung möglicher Barrieren
-- evaluiere Seiten
+***==Schrittfolge==***:
+- Definiere *Benutzerprofil* (z.B. ==Art der Behinderung==)
+- definiere *Benutzerszenarios* (z.B. Hilfsmittel, Ziele)
+- Bestimmung *möglicher* ==Barrieren==
+- *evaluiere* Seiten
 - Auswirkungsgrad schätzen (Auswirkung(wie stark) + Nachhaltigkeit(wie oft))
 
-**Eine Barriere wird beschrieben durch:**
-1. die Kategorie der Benutzer und die Art der Behinderung
-2. der Typ von Hilfsmittel
-3. die Art von Ausfall (wie einschränken)
+**Eine ==Barriere== wird beschrieben durch:**
+1. die Kategorie der *Benutzer* und die Art der *Behinderung*
+2. der Typ von *Hilfsmittel*
+3. die Art von Ausfall (wie *einschränken*)
 4. welche Merkmale in der Seite die Barriere erzeugen -> 即使是同样的特征, 也会给不同的群体造成不同的障碍
 
 ![[Pasted image 20240205125057.png]]

@@ -20,21 +20,21 @@ aliases:
 -> Digital Accessible Information System
 
 ## DAISY enthält (Prototyp):
-- package file
+- *package file*
 	- package identity
 	- metadata
 	- Manifest (文件清单)
-	- spine, tours, guide 
-- Text des Buches (einschließlich Mark-up gemäß OpenBook)
-- die entsprechenden Audio-Dateien (Sprecher od. Synthetische Stimme)
-- SMIL Datei
-- NCX Datei
+	- spine书脊, tours, guide 
+- *Text* des Buches (einschließlich *Mark-up* gemäß OpenBook)
+- die entsprechenden *Audio-Dateien* (Sprecher od. Synthetische Stimme)
+- *SMIL* Datei
+- *NCX* Datei
 
-## XHTML und SMIL (Dasisy 2.0/3.0)- Datei
+## XHTML und SMIL (Daisy 2.0/3.0)- Datei
 
-- **SMIL Datei** zur Verknüpfung von Audio (MP3) und Text
+- **SMIL Datei** zur ==*Verknüpfung von Audio (MP3) und Text*==
 - **Ressourcen Datei** mit *zusätzlichen Medien*, die dem Leser nicht zugänglich sein sollen
-- *einer Datei zur navigation control (NCX)* mit allen Lesezeichen zu denen der Leser navigieren kann
+- *einer Datei zur ==navigation control (NCX)==* mit allen **Lesezeichen** zu denen der Leser navigieren kann
 
 ## wichtige Elemente in DAISY (3.0)
 ### a) Struktur
@@ -43,7 +43,7 @@ aliases:
 - synchronization file ->**SMIL Datei**
 - navigation control file ->*einer Datei zur navigation control (NCX)*
 - resource file ->**Ressourcen Datei** mit *zusätzlichen Medien*, die dem Leser nicht zugänglich sein sollen
-- presentation style file (CSS)
+- **presentation style file (CSS)**
 - transform file (XSL für GUI, Audio, und Braille)
 - XSL 将不同的XML格式的信息转化成不同的输出格式
 
@@ -62,10 +62,7 @@ aliases:
 .xml -> Text
 .mp3 -> Audio
 
-
-
 ## Lesetechniken für DAISY
-
 - Text lesen
 - fast forward , reverse
 - variable Lesegeschwindigkeit
@@ -85,15 +82,15 @@ aliases:
 
 
 ## DTDs für DAISY Bücher
-定义了XML文档的结构以及允许的元素
+定义了XML*文档的结构以及允许的元素*
 - DTBook DTD
 - NCX DTD
 - ...
 
 ## DT Book
-一种用于数字化图书的XML标准: 
+一种用于数字化图书的***XML***标准: 
 ![[Pasted image 20240206154022.png]]
--> 将这些不同内容使用mark up转换成DT Book格式。
+-> 将这些不同内容==使用mark-up转换成DT Book格式==。
 
 ### Markup des Front Matter (前言)
 ![[Pasted image 20240206154148.png]]
@@ -103,7 +100,7 @@ aliases:
 - meist durch Kapitel, Abschnitte und Unterabschnitte, hier "**parts**" genannt
 - `pagenum`定义页码
 - Ein **Part** wird durch <\level> beschrieben
-- class-Attribute chapter, section, subsection
+- **class-Attribute** chapter, section, subsection
 - ![[Pasted image 20240206154607.png]]
 ### Markup des Rare Matter
 一本书的最后部分, tag跟前面一样
@@ -113,7 +110,7 @@ aliases:
 ## DAISY und Mathematik
 ![[Pasted image 20240206155605.png|400]]
 ![[Pasted image 20240206155553.png]]
--公式以Box模型储存在XML文档中
+-> 公式以Box模型储存在XML文档中
 # Fallstudie 2: Mathematik
 
 | Entwurfskriterium | Mathematik-Interaktion                                                                                                                  |
