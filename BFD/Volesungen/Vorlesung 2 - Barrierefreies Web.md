@@ -121,7 +121,7 @@ der beteiligten Landvermessungsämter</td>
  </tbody>
 ```
 ![[Pasted image 20240204145512.png]]
-- <table> mit scope-Attribut
+- < table> mit scope-Attribut
 
 ![[Pasted image 20240206095344.png]]
 ### Linearisierbare Tabelle
