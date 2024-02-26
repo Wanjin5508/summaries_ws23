@@ -17,8 +17,8 @@ tags:
 -> Web Content Accessibility Guidelines
 ### 4 Bereichen / Prinzipien
 --> [[Vorlesung 1 - Nutzende#区分 Usability(Gebrauchstauglichkeit) vs. Accessibility (BF)]]
-- **Wahrnehmbarkeit**: Darstellungen *==erfahrbar==* (lesbar) gestalten (呈现方式) -> 内容可感知
-- **Bedienbarkeit**: Eingaben zur *==Steuerung==* von Websites und Anwendungen ermöglichen (输入) -> 可控制
+- **Wahrnehmbarkeit**: *Darstellungen* *==erfahrbar==* (lesbar) gestalten (呈现方式) -> 内容可感知
+- **Bedienbarkeit**: *Eingaben* zur *==Steuerung==* von Websites und Anwendungen ermöglichen (输入) -> 可控制
 - **Verständlichkeit**: Menschen mit *==kognitiven== Einschränkungen* erreichen -> 降低特殊人群理解障碍
 - **Robustheit**: technische *Neuerungen* schließen ältere assistive Technologien nicht aus -> 新旧内容可兼容
 
@@ -38,7 +38,7 @@ tags:
 --> Menschen mit einer **Farbefehlwahrnehmung**
 - Grün-Farbsehschwäche = *Deuteranomalie*
 - Blauschwäche = *Trianomalie*
--> **Farbe nicht alleine einsetze**n, z.B. manche Kombinationen der Farben sind zu vermeiden (Rot-Grün, Gelb-Weiß, Blau-Orange...)
+-> **Farbe nicht alleine einsetzen**, z.B. manche Kombinationen der Farben sind zu vermeiden (Rot-Grün, Gelb-Weiß, Blau-Orange...)
 
 除了使用颜色进行标注以外, 考虑额外添加信息, 例如形状、文本...
 ![[Pasted image 20240204142027.png|400]]
@@ -46,7 +46,6 @@ tags:
 -> 针对不同的色弱群体, 采用不同的配色方案:
 Bsp.: Kartendesign:
 ![[Pasted image 20240204141435.png]]
-
 
 ## 2. Lesbarkeit von Text 
 ### Lesbarkeit
@@ -69,14 +68,14 @@ Bsp.: Kartendesign:
 
 > ASCII Grafik vermieden
 
-### Mark-up for Text
+### Mark-up for Text (Struktur in HTML5)
 #### Überschriften
 - wichtig für *Navigation* des Screenreader
 - bei `<h1>` beginnen
 - nach `<h1>` folgend `<h2>` dann `<h3>`
 
 #### Listen
-- ohne Mark-up vom Screenreader nicht interpretierbar
+- *ohne Mark-up vom Screenreader nicht interpretierbar*
 - `<ul>` (ungeordnete Liste) oder Gestaltung per CSS
 - `<ol>` (geordnete Liste)
 - `<dl>`
@@ -86,7 +85,7 @@ Bsp.: Kartendesign:
 Die vorherrschende Sprache soll kenntlich gemacht werden: lang="de"
 
 ## 3. Tabellen
-- Tabellen werden vom *Screenreader* **==serialisiert==** und es obliegt dem Autor diesen Vorgang zu unterstützen, z.B. durch eine **Zusammenfassung** oder durch **Abkürzungen** für Spaltentitel
+- Tabellen werden vom *Screenreader* **==serialisiert==** und es obliegt dem Autor diesen Vorgang zu unterstützen, z.B. durch eine **Zusammenfassung** oder durch **Abkürzungen** für Spaltentitel -> hilfsreich
 	- Zusammenfassung: `<summary>`
 	- Abk.: `<th abbr='Kilometer'>Länge der Grenze in km</th>`
 - Elemente in Datentabellen: `<caption> 标题<th> 表头格式<td>表格`
@@ -125,9 +124,7 @@ der beteiligten Landvermessungsämter</td>
 
 ![[Pasted image 20240206095344.png]]
 ### Linearisierbare Tabelle
-
 - Colspan 合并列，Rowspan合并行
-
 ![[Pasted image 20240206095744.png]]
 
 ## 3.  Navigation und Verweise
@@ -141,14 +138,14 @@ der beteiligten Landvermessungsämter</td>
 ### Navi
 ![[Pasted image 20240204150006.png]]
 #### Benannte *Anker*  (Navi in der Seite)
-- Navigation innerhalb einer Seite, auch verdeckt.
+- Navigation innerhalb einer Seite, auch *verdeckt*.
 - Bsp.:
 	- Sprünge am Anfang einer Seite *zu späteren Abschnitten*
 	- Sprung *zurück zum Anfang* (in einer langen Seite)
 - Für **Screenreader** sinnvoll am Anfang oder am Ende einer Seite
 
 #### Navigation zwischen Seiten
-- unterschiedliche Navigationsmöglichkeiten einsetzen:
+- unterschiedliche *Navigationsmöglichkeiten* einsetzen:
 	- Inhaltsverzeichnis
 	- Sitemap
 - Beschriftungen für Verweise sollen eine **Bedeutung** wiedergeben, auch wenn der Kontext nicht erfasst wurde
@@ -168,7 +165,7 @@ der beteiligten Landvermessungsämter</td>
 ## 4. Graphik
 ### Alternativtexte
 -  `alt=""` wird vom Screen Reader ignoriert, 空的才会没用！
--  alternativ: `title` für ausführliche Darstellung verwenden，只有在鼠标悬停在上面才会显示，不是很好！
+-  alternativ: `title` für *ausführliche* Darstellung verwenden，只有在鼠标悬停在上面才会显示，不是很好！
 - `longdesc` wird von Screenreadern nicht immer beherrscht und in HTML5 abgeschafft.
 - Inhalt der Alternativtexte:
 	- **Objekt**, Gebäude, Menschen im Bild nennen
@@ -178,7 +175,6 @@ der beteiligten Landvermessungsämter</td>
 	- Emotionen, Atmosphäre des Bildes
 	- Informationen zu Ortsangaben mit Bezug zum Bild
 	- -> 先描述最重要的信息, 并且不能太长
-这里还需要有代码例子
 
 ### Lange Beschreibungen
 ![[Pasted image 20240204165542.png]]
@@ -217,9 +213,9 @@ der beteiligten Landvermessungsämter</td>
 -  Beschreibung mittels [[Vorlesung 2 - Barrierefreies Web#ARIA|ARIA]] (z.B. `aria-label, aria-hidden`)
 
 ### [[BFD/Volesungen/BFD Übungen#ARIA|ARIA]]
-- **bisher**: Seiten sollen ohne Javascript bedienbar sein (`<noscript>`) 
+- **bisher**: Seiten sollen *ohne Javascript* bedienbar sein (`<noscript>`) 
 - *Accessible Rich Internet Applications* beschreiben Aufbau des OSM
-- Mark-up und Javascript sollen *Zugänglichkeit zu **==Widgets==*** herstellen (roles)
+- **Mark-up** und **Javascript** sollen *Zugänglichkeit zu **==Widgets==*** herstellen (roles)
 	- aria的正确用法:
 	- each **element** or **widget** is marked with <mark style="background: #ADCCFFA6;">full and corrected semantics that fully describes it's behavior</mark> -> using element *names* or *roles* 
 	- ![[Pasted image 20240206105607.png]]
@@ -238,7 +234,7 @@ der beteiligten Landvermessungsämter</td>
 
 ## 7. Interaktion
 - Tastaturbedienung
-	 - **Accesskey** (快捷键) erlaubt interaktive HTML Elemente mit Tastaturunterstützung zu versehen.
+	 - **Accesskey** (快捷键) erlaubt *interaktive HTML Elemente* mit Tastaturunterstützung zu versehen.
 - Ereignisbehandlung
 	- logische Behandlung vs. geräteabhängige Behandlung
 - Popup-Fenster vermeiden
@@ -258,7 +254,6 @@ Please enter your comments here: </TEXTAREA>
 > ==**Beschriftung und Bedienelement assoziieren**==
 > 上面的例子没有实现, for 和input id相连
 >- Vorbesetzen der leeren Texteingabefelder ist abhängig vom Screenreader
-
 
 ### Type
 - type 属性**通常**用于表单元素，如 `<input>`、`<button>`、`<select>` 等，以指定元素的类型。

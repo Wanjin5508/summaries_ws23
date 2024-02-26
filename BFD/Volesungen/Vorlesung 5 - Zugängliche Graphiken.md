@@ -23,7 +23,7 @@ Typen mit teils charakteristischen *Elementen* und unterschiedlichen *Funktionen
 ## 2 Zugängliche Grafiken
 - Grafiken => Barriere v.a. für Menschen mit **Blindheit** und **Sehbeeinträchtigung**
 - Auch für Menschen mit weiteren Beeinträchtigungen herausfordernd, z.B. Menschen mit **kognitiven Beeinträchtigungen**
-- **Kulturell** unterschiedliche Bedeutung von Grafiken (z.B. Farben, Leserichtung, etc.)
+- **Kulturell** unterschiedliche Bedeutung von Grafiken (z.B. Farben, Leserichtung, etc.) 
 - Zugang zu Grafiken unausweichlich für gleichberechtigte, gesellschaftliche Teilhabe, z.B. für Bildung, soziale Bereiche, Social Media, Kultur & Kunst…
 - gleichwertigen Zugang durch **alternative Darstellungsweise** des Inhalts gewähren (访问图片的公平性和文化差异)
 
@@ -39,7 +39,6 @@ Typen mit teils charakteristischen *Elementen* und unterschiedlichen *Funktionen
 -> 使用屏幕阅读器可以朗读powerpoint中图片的替代文字
 
 ### Allgemeine Richtlinien -> 对练习很重要
-
 **Wann beschreiben?** (不是装饰才，或者说要描述)
 - Prinzipiell: *alle* Nicht-Text-Inhalte
 - Ausnahme: reine *Schmuckgrafiken*
@@ -59,8 +58,8 @@ Typen mit teils charakteristischen *Elementen* und unterschiedlichen *Funktionen
 - <mark style="background: #ADCCFFA6;">Kontext (keine redundanten Infos geben)</mark>
 ![[Pasted image 20240116075745.png]]
 
-**Context is the key**
-- Inhalte der Beschreibung hängen vom Kontext des Bildes ab.
+***Context* is the key**
+- *Inhalte der Beschreibung* hängen vom Kontext des Bildes ab.
 - relevant?
 - verfügbare Informationen im Kontext
 
@@ -102,7 +101,7 @@ Typen mit teils charakteristischen *Elementen* und unterschiedlichen *Funktionen
 
 #### Bereitstellung mit SVG
 ##### Barrierefreies SVG
-- Erhöht Verständnis von Grafiken für alle Betrachtenden
+- Erhöht Verständnis von Grafiken *für alle Betrachtenden*
 - <mark style="background: #ADCCFFA6;">Lesbarkeit ohne Grafikprogramm möglich</mark>
 - <mark style="background: #ADCCFFA6;">alle Elemente semantisch kennzeichnen</mark>:
 	- wenn möglich Basistypen statt `path` verwenden (z.B. `circle, rect, line, polygon...`) 
@@ -148,7 +147,7 @@ Typen mit teils charakteristischen *Elementen* und unterschiedlichen *Funktionen
 
 ### *Distribution* von zugänglichen Grafiken:
 #### Distribution Schwellpapier （膨胀纸）
-- Druck auf Spezialpapier -> gleichmäßig erhitzen
+- Druck auf Spezialpapier -> gleichmäßig *erhitzen*
 - **Heiligkeitswert** entspricht *Schwellhöhe*: Je dunkler, desto höher geschwellt.
 
 **Vorteil**: 
@@ -163,7 +162,7 @@ Typen mit teils charakteristischen *Elementen* und unterschiedlichen *Funktionen
 - benötigt Spezialgerät zum "Schwellen" (Fuser,  熔凝器)
 - Schwellpapier ist preisintensiv (ca. 1€ pro A4 Blatt)
 ![[Pasted image 20240118215843.png]]
-#### Distribution Braille Drucker(盲文打印机)
+#### *Distribution* Braille Drucker(盲文打印机)
 - Für *Braille*-Schrift-Druck **optimiert**
 - Punktabstand lässt sich verändern (Braille-Schrift, äquidistant)
 
@@ -179,9 +178,9 @@ Typen mit teils charakteristischen *Elementen* und unterschiedlichen *Funktionen
 
 ![[Pasted image 20240118220430.png]]
 
-#### Distribution Taktile Druker (触觉打印机)
+#### *Distribution* Taktile Druker (触觉打印机)
 - für *Grafikdruck* optimiert
-- automatische Umsetzung von Helligkeitswerten in Reliefhöhen. (Reliefkarte:  地形图)
+- automatische **Umsetzung** von *Helligkeitswerten* in *Reliefhöhen*. (Reliefkarte:  地形图)
 
 **Vorteil:**
 - 8 Stufen von *Prägungstiefen* (praktisch max.3 unterscheidbar)
@@ -194,7 +193,7 @@ Typen mit teils charakteristischen *Elementen* und unterschiedlichen *Funktionen
 - kostenintensive Hardware
 - unüblicher als Braille-Druck -> geringe Verfügbarkeit
 
-#### Distribution Kollagen （拼贴画）
+#### *Distribution* Kollagen （拼贴画）
 *Bildkomposition* aus verschiedenen Materialien
 
 **Vorteile:**
@@ -205,7 +204,7 @@ Typen mit teils charakteristischen *Elementen* und unterschiedlichen *Funktionen
 - hoher Erstellungsaufwand
 - *Vervielfältigung* aufwendig --> 很难制作副本, 每件样品都是独一无二的
 ![[Pasted image 20240120143931.png]]
-#### Distribution Punktreliefs (点浮雕)
+#### *Distribution* Punktreliefs (点浮雕)
 - Manuelles Prägen von Punkten in *Zinkblech* (锌板)
 - Vervielfältigung der *punzierten* Platte im Blindendruck auf Papier (用样板打出（冲出）标志（Edelmetalllegierungen贵金属合金)
 - Ergebnis ist ein Papierblatt analog einer Punktschriftseite
@@ -218,7 +217,7 @@ Typen mit teils charakteristischen *Elementen* und unterschiedlichen *Funktionen
 - Zinkverbrauch
 ![[Pasted image 20240120144057.png]]
 
-#### Distribution Folienreliefs （薄膜浮雕）
+#### *Distribution* Folienreliefs （薄膜浮雕）
 ##### 1. Erstellung einer *Basismatrize*
 - als Kollage (拼接画)
 - durch Plotten(绘图) von Materialschichten (材料层的绘制)
@@ -232,7 +231,7 @@ Typen mit teils charakteristischen *Elementen* und unterschiedlichen *Funktionen
 - 在模板上加热塑料冷却得到
 ![[Pasted image 20240120151447.png]]
 
-#### Distribution 3D-Modelle
+#### *Distribution* 3D-Modelle
 3-dimensionale Körper zur *Vermeidung* perspektivischer Abbildungen (Projektionsbilder in 2D)
 **Nachteile:**
 - zeitintensive Erstellung der 3D-Modelle
@@ -250,7 +249,6 @@ Typen mit teils charakteristischen *Elementen* und unterschiedlichen *Funktionen
 ##### 1. Braille Lesen
 - Beide Hände mit 4 Fingern -> Unterstützung beim Verfolgen der Zeile
 	- ![[Pasted image 20240120152757.png]]
-
 - Linker Zeigerfinger referenziert und rechter Zeigerfinger liest.
 	- ![[Pasted image 20240120152903.png]]
 - Linker Zeigerfinger liest zur Mitte, danach rechter Zeigerfinger:
@@ -258,18 +256,16 @@ Typen mit teils charakteristischen *Elementen* und unterschiedlichen *Funktionen
 
 左手食指定位，右手食指移动，右手移到中间，移动左手
 ##### 2. Initiales Abtasten (大概)
-- *Vor* der detaillierten Erkundung -> initiales Abtasten(扫描) mit beiden Händen 
-	- um Überblick zu erfassen:
+- *Vor* der detaillierten Erkundung -> *initiales Abtasten(扫描)* mit beiden Händen 
+	- um **Überblick** zu erfassen:
 		- Größe
 		- Ausmaß
 		- Grafiktypen
 		- ...
 ![[Pasted image 20240204222836.png]]
-
 ##### 3. Linienverfolgung (Edge-Strategy) (边缘)
 Erfassen *konkrete Umrisse轮廓*, Formen und Figuren durch Abfahren der *Außenlinie* -> in Schulen vermittelte Strategie zur **Objekterkennung**
 ![[Pasted image 20240120153232.png]]
-
 ##### 4. Systematische Strategien (horizontales / vertikales Erkunden) (双手四指)
 ![[Pasted image 20240120153314.png]]
 
@@ -281,35 +277,29 @@ Erkundung rundum einen *Point-of-Interest*
 - fehlender sukzessiver Erkundungsvorgang
 - zu großes Format (> A3)
 - überladen mit Information
-- mangelhafte taktile Unterschied- und Erkennbarkeit
+- mangelhafte *taktile* Unterschied- und Erkennbarkeit
 - Braille auf Texturen nicht erkennbar
-- zu wenige Tastebenen verwendet (Reliefs)
+- zu wenige Tastebenen verwendet (*Reliefs*)
 - fehlende Zeichenerklärung (Legende)
 
 ### Richtlinien （触觉图的Richtlinien）
 *==--> 从给视觉正常的人看的2d图转换成 触觉图 的过程中要注意:==*
 #### 1. Wahrung der ursprünglichen Aussage (不删改)
 - keine Informationen weglassen oder hinzufügen
-
 #### 2. Reduzierung der Komplexität （删装饰）
 - *nur zum Verständnis notwendige* Elemente übernehmen, Grafik so einfach wie möglich gestalten
 - Änderungen ggf. in **Annotationen** vermerken
-
 #### 3. Texturen, Linienstile und Punktsymbole *sparsam* verwenden (节制使用条纹，纹理，符号)
 - Max. *5 Texturen* in einer Grafik --> 纹理对应正常图表中的颜色
 - Referenzieren verwendeter Texturen, Linienstile, Symbole und Keys in einer Legende
-
 #### 4. Perspektive vermeiden (避免透视)
 - 3-dimensionale Darstellungen in 2-dimensionale überführen
 - *Überschneidungen* von Objekten *vermeiden*
-
 #### 5. Aufteilen komplexer Objekte (分解复杂对象)
 - Zerlegung komplexer Objekte in *Teilgrafiken*
-
 #### 6. Unterscheidbarkeit （可辨识性）
 - Mindestabstände und -größen beachten (大小)
 - Geprüfte Texturensets mit geringer Ähnlichkeit untereinander verwenden (纹理可以区分)
-
 #### 7. Verwendung von Braille-Schrift
 - geeignete Brailleschrift in richtiger Schriftgröße verwenden (大小合适)
 - *kleine* Braille-Beschriftungen mit einem Rahmen hervorheben 
@@ -336,9 +326,10 @@ Erkundung rundum einen *Point-of-Interest*
 - ![[Pasted image 20240120164818.png]]
 
 ### Teilautomatisierte Erstellung
-> Häufigster Ansatz: Anpassung einer bestehenden visuellen Grafiken für die taktile Ausgabe (Transkription).
+> Häufigster Ansatz: 
+> **Anpassung** einer bestehenden visuellen Grafiken für die *taktile Ausgabe* (Transkription).
 
-Bsp.: **TGA** (Tactile Graphics Assistant)
+Bsp.: **TGA** (*Tactile Graphics Assistant*)
 -> Algorithmus zur automatischen Vereinfachung und Optimierung herkömmlicher Grafiken in taktile Grafiken:
 - manuelles Eingruppierung der Bilder in Klassen sowie Training
 - Separieren und Entfernen von Text innerhalb einer Grafik (图形内部分离和移除文本)
@@ -360,7 +351,7 @@ Bsp.: **TGA** (Tactile Graphics Assistant)
 -> 注意记一下有哪些用于交互的技术
 ### Audio-haptische Systeme
 #### Audio-Taktile Ansätze
-- *multimodale* Systeme-> Kombination verschiedener Ein- und Ausgabemöglichkeiten , z.B. **haptischer** und **auditiver** Elemente
+- *multimodale* Systeme-> *==Kombination verschiedener Ein- und Ausgabemöglichkeiten==* , z.B. **haptischer** und **auditiver** Elemente
 - Ansprechen verschiedener Sinne
 - *==talking tactile tablet==*: 
 	- <mark style="background: #ADCCFFA6;">Berührungsempfindliches Tablet erlaubt akustische Rückmeldung bei Fingerkontakt</mark>
@@ -373,8 +364,8 @@ viele Ansätze, um ***Interaktion*** zu ermöglichen:
 - Verwendung *digitaler Stifter*, die *==Position erkennen==* (点读笔)
 
 ### Technik der Interaktion: 
-#### AuthOMathic Block System
-> Def: **taktile/haptische** Interaktionstechniken durch Legen von <mark style="background: #ADCCFFA6;">*Blöcken mit Braille-Beschriftung*</mark>
+#### AuthOMathic *Block* System
+> Def: **taktile/haptische** Interaktionstechniken durch ***Legen*** von <mark style="background: #ADCCFFA6;">*Blöcken mit Braille-Beschriftung*</mark>
 
 ![[Pasted image 20240202172023.png|400]]
 
@@ -394,7 +385,7 @@ HyperBraille Display
 - Wie können *Fenstersysteme* mit taktilen Displays dargestellt werden?
 
 **Eigenschaften:**
-- Konzept zur taktilen Darstellung und Interaktion mit Anwendungen (Fenstersystemen)
+- Konzept zur *taktilen Darstellung* und Interaktion mit Anwendungen (Fenstersystemen)
 - Evaluation mit der Zielgruppe innerhalb von empirischen Studien
 - Unterstützung thematischer Ansichten für verschiedene Anwendungsfälle
 - äquidistantes Braille erfordert Änderungen er Lesegewohnheiten
@@ -448,8 +439,8 @@ Problem: *kein Feedback* des Gezeichneten
 ### digital vs. analog
 |        | Analog                                                                                            | Digital                                                                                                                     |
 | ------ | ------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Pro    | - schnell und einfach <br>- günstig <br>- detaillierte und naturgetreue Darstellung möglich       | - gute Fehlerkorrektur<br>- hohe Veränderbarkeit und Reproduzierbarkeit<br>- leichte Distribution                           |
-| Kontra | - schwierige Fehlerkorrektur<br>- schwer reproduzierbar<br>- wenig Unterstützung bei **Zeichnen** | - erfordert hohe kognitive Ressourcen<br>- begrenztes Anwendungsgebiet<br>- Spezialequipment (Hardware) notwendig -> Kosten |
+| Pro    | - schnell und einfach <br>- günstig <br>- detaillierte und naturgetreue Darstellung möglich       | - gute *Fehlerkorrektur*<br>- hohe Veränderbarkeit und *Reproduzierbarkeit*<br>- leichte Distribution                           |
+| Kontra | - schwierige *Fehlerkorrektur*<br>- schwer *reproduzierbar*<br>- wenig Unterstützung bei **Zeichnen** | - erfordert hohe kognitive Ressourcen<br>- begrenztes Anwendungsgebiet<br>- Spezialequipment (Hardware) notwendig -> Kosten |
 
 ## 7 Tangram Workstation
 kollaborative Grafikerstellung mit Blinden und Sehenden

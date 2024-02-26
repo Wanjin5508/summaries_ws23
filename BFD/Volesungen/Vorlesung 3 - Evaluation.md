@@ -18,7 +18,7 @@
 # E-Methode: Evaluieren mit Benutzern
 - Labortest: *==Thinking-Lound-Potokoll==*
 - Sonderfall: Remote Usability Test
-## Mockup/Prototyp
+## Mockup / Prototyp
 > **frühe** Evaluation: *Mockup*
 - *taktile* Mockups für blinde Benutzer möglich 
 	- 2D: Brailledrucke
@@ -30,12 +30,15 @@
 	- Audio über Mikrofon
 	- Braille über Kamera
 
-## Ethik: Helsinki Deklaration
-- für medizinische Experimente
-- E-mail (E-Mail für blinde Menschen gut geeignet: da **Unterschrift** und **Konsenserklärung** einholen ist möglich)
+- **Planung**
+	* Umfang festlegen (Was?, Ziele, *Konformitätsstufe*) 
+	* Website erkunden (wichtige Seiten, Funktionen...) 
+	* Festlegen repräsentativer Beispiele  
+	* *Erfolgreiche / fehlerhafte Seiten bestimmen*
+	* Bericht über Ergebnis
 
 # E-Methode: Manuelle Prüfung der Barrierefreiheit
-## Ablauf der manuellen  Evaluation( WAVE Toolbar)
+## Ablauf der manuellen  Evaluation( *WAVE* Toolbar)
 initiale Form -> [[#Sichten|manueller Evaluationsprozess]] -> Bericht
 ### Kriterien
 [[#**Kriterien von unterschiedlichen Methoden **]]
@@ -67,21 +70,27 @@ initiale Form -> [[#Sichten|manueller Evaluationsprozess]] -> Bericht
 - Inspektion für Javascript (Firefox Accessibility Extensions (FAE)
 	- Untersuchung der *ARIA Widgets (Role, Tab Index, Wert)*
 
-### Prüfwerkzeuge fehlen für
+### Prüfwerkzeuge *fehlen* für
 - **Audio** (Spracherkennung möglich, jedoch nur bei isolierten Sprechern anwendbar)
 - **Video**: Manuelle Erstellung von Untertiteln -> automatische Übersetzung
 - Komponenten / **Plugins**
 - **Interaktion**: Navigation nicht genügend sicher bewertbar
 
-# E-Methode: Automatisiertes Prüfen von Barrierefreiheit
+# E-Methode: *Automatisiertes* Prüfen von Barrierefreiheit
 ## Automatisiertes Testen
 *Einige Eigenschaften* von Barrierefreiheit lassen sich **automatisiert** prüfen, dazu ist notwendig:
-### 要点
 - Definition einer Teilmenge von [[Vorlesung 3 - Evaluation#Beschreibung von Richtlinien|Prüfregeln]]
 	- spezifisch vs. allgemein
-- *Eineindeutige Referenz* auf das Testobjekt
+- *Eineindeutige Referenz* auf das Testobjekt (HTTP mit RDF beschreiben)
 	- statisch vs. dynamisch
 - Berichtsgenerierung
+- - Evaluationswerkzeug (untersucht nach Richtlinien, z.B. Kontrast)
+- –  Reparaturwerkzeuge (Eingriff in HTML code)
+- –  Filter- und Transformationswerkzeuge (unterstu ̈tzend)
+- –  jedoch oft Fehler/unvollst ̈andig
+- –  Crawling: Bewertung mit FIFO (Auf Startseite suchen nach neuen URLs und Pru ̈fung dieser, sowie erneuter Suche nach neuen URLs und hinzufu ̈gen dieser zu Liste)
+- –  Beschreibung Navigation: Automat mit Wahrscheinlichkeiten
+- –  Beschreibungssprachen (fu ̈r Pru ̈fregeln): XML, EARL, TCDL, UGL
 ### Arten von autom. Werkzeugen
 - ==Evaluationswerkzeuge== untersuchen Seiten **statisch**
 	- **allgemein**, eventuell nach *mehreren Richtlinien*
@@ -101,7 +110,6 @@ initiale Form -> [[#Sichten|manueller Evaluationsprozess]] -> Bericht
 	- Navigation
 	- einfache Sprache
 	- Einfluß des Hilfsmittels
-**
 ### Websites bewerten: Crawling (爬取)
 - URL Sammlung ist meist ein **FIFO**
 - Gefundene URLs müssen *normalisiert* werden
@@ -113,11 +121,11 @@ Laden und Parsen einer Seite ist zeitintensiv -> Multithreaded Crawling (加快�
 - Ein *trail* besteht aus einer *Sequenz von Seiten*, die besucht werden
 - ***Problem***: URLs sind zeitabhängig
 - -> 不确定能否获取某个URL中的资源, 那就用probabilistischer Ansatz来描述导航过程。Jeder Zustandsübergang in einem **HFA** wird mit einer Wahrscheinlichkeit beschrieben.
-- Es entsteht ein *Hypertext Probabilistic Automata* (**HPA**)，der ***HPA*** die **==Navigationsmuster==** eines Benutzers beschreibt und die **==Übergangswahrscheinlichkeiten==** geben wie häufig der Benutzer eine Verknüpfung verfolgt hat.
+- Es entsteht ein *Hypertext Probabilistic Automata* (**HPA**)，der ***HPA*** die **==Navigationsmuster==** eines **Benutzers** beschreibt und die **==Übergangswahrscheinlichkeiten==** geben wie häufig der Benutzer eine Verknüpfung verfolgt hat.
 ![[Pasted image 20240205121708.png]]
 
 ### Auswahl der Werkzeugen 
-- TAW
+- TAW:
 	- Mehrere Darstellungsformen
 	- Nach *Richtlinien* gruppiert
 ![[Pasted image 20240206113424.png]]
@@ -125,34 +133,38 @@ Laden und Parsen einer Seite ist zeitintensiv -> Multithreaded Crawling (加快�
 	- Monitoring von Barrieren *über einen Zeitraum*
 ![[Pasted image 20240206113602.png]]
 ### Beschreibung von Richtlinien
-
 - MAUVE (Mauve erlaubt eigene Regeln anzugeben)
-
 - Beschreibungssprachen: 
 	- <mark style="background: #ADCCFFA6;">XML-Prüfregeln</mark> in Nauticus bzw. Magenta für Usability Guidlines for the Blind [Leporini]
 	- ![[Pasted image 20240206114424.png]]
 	- Universal Guideline Language (UGL) (自动和手动的权重: integrierte Berichtserzeugung)
 		- integrierte Berichtserzeugung
-	- Beschreibungssprachen: Evaluation and Report Language vom W3C durch TAW unterstützt ( 谁用了什么规则测试了什么得到了什么)
+	- *Beschreibungssprachen*: Evaluation and Report Language (**EARL**) vom W3C durch TAW unterstützt ( 谁用了什么规则测试了什么得到了什么)
 		- ![[Pasted image 20240206115040.png]]
-		- Wer hat den Test durchgeführt (Assertor)
-		- Welche Resource wurde getestet (Test Subject)
-		- Welches Kriterium wurd angewendet (Test criterion)
-		- Was war das Ergebnis (Test Result)
-
+		- **Definiert durch ein Schema:**
+			- Wer hat den Test durchgeführt (Assertor)
+			- Welche Resource wurde getestet (Test Subject)
+			- Welches Kriterium wurde angewendet (Test criterion)
+			- Was war das Ergebnis (Test Result)
+		- **EARL Einsatzgebiete:**
+			- *Vergleich* der Testergebnisse mit Werkzeugen für verschiedenen Sprachen
+			- Zusammenführen der Ergebnisse *unterschiedlicher* Tools
+			- Vergleich der Ergebnisse
+			- Benchmarking eines Tools gegen eine Testfallsammlung
+			- Beobachtung einer Webseite über die Zeit
 
 # E-Methode: Simulation
 Simulation von Präsentation bildet ***Wahrnehungsdefizite*** nach
-- Sehbehinderung 
+- **Sehbehinderung** 
 	- (Netbeans IDE)
-		-  Simulation von Netzhautveränderungen
+		- Simulation von Netzhautveränderungen
 		- Parkinson
 		- Dyslexie
 	- Simulation der Effekte für die visuelle Präsentation
 		- VIS simuliert
-- Hörbehinderung 
-	- Simulation der akustischen Wahrnehmung
-- Sim. physikalischer Behinderung 
+- **Hörbehinderung** 
+	- Simulation der *akustischen* Wahrnehmung
+- Sim. **physikalischer** Behinderung 
 	- Modellierung des Verhaltens bei der **Eingabe** per *sequentieller Tastatur* („Scanning keyboard“)
 		- Wahrnehmungsmodell 
 		- ==*Kognitives Modell*== entscheidet auf Basis visueller Wahrnehmung
@@ -162,7 +174,7 @@ Simulation von Präsentation bildet ***Wahrnehungsdefizite*** nach
 > **Heuristische** Methode um Barrierefreiheit zu evaluieren
 > 
 > ***Grundidee***: Liste von **typischen Fehlern** überprüfen, **Reliabilität** betonen
-> -> **Expertentext** im Kontext von *Benutzungsszenarien*
+> -> **Expertentest** im Kontext von *Benutzungsszenarien* -> heuristisch
 
 ***==Schrittfolge==***:
 - 1. Definiere *Benutzerprofil* (z.B. ==Art der Behinderung==)

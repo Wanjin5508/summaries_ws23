@@ -29,16 +29,17 @@ aliases:
 - die entsprechenden *Audio-Dateien* (Sprecher od. Synthetische Stimme)
 - *SMIL* Datei
 - *NCX* Datei
+-   Lesetechniken (Lesen, Spulen, Springen, Suchen, Navigieren, Zusammenfassung...)
+- –  mehrere DTDs (Dokumententypdefinitionen)
+- –  Mathematik durch MathML
 
 ## XHTML und SMIL (Daisy 2.0/3.0)- Datei
-
 - **SMIL Datei** zur ==*Verknüpfung von Audio (MP3) und Text*==
 - **Ressourcen Datei** mit *zusätzlichen Medien*, die dem Leser nicht zugänglich sein sollen
 - *einer Datei zur ==navigation control (NCX)==* mit allen **Lesezeichen** zu denen der Leser navigieren kann
 
 ## wichtige Elemente in DAISY (3.0)
 ### a) Struktur
-
 - audio file
 - synchronization file ->**SMIL Datei**
 - navigation control file ->*einer Datei zur navigation control (NCX)*
@@ -48,14 +49,12 @@ aliases:
 - XSL 将不同的XML格式的信息转化成不同的输出格式
 
 ### b) Inhalte
-
 - <\sent> -> Sätze, <\p> -> Absätze
 - <\level1> - <\level6> -> Buchstrukturen (Kapitel, Abschnitte)
 - <\img> und <\imggroup> -> Bilder und deren Beschreibung
 - <\pagenum> -> Seitenzahlen
 
 ### Beispielaufbau
-
 ![[Pasted image 20240206153533.png]]
 .opf -> package file
 .smil -> Synchronisation
@@ -117,9 +116,9 @@ aliases:
 | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
 | Kohärenz           | Ausgabe-Modalität und Eingabe Modalität sollen sich entsprechen, (Braille Eingabe und Braille Ausgabe, Spracheingabe und Sprachausgabe) |
 | Erkundung          | Räumliche oder hierarchische Navigation je nach mathematischem Konstrukt                                                                |
-| graphische Symbole | verbalisieren durch Namen oder nicht-verbale Klänge                                                                                     |
-| Lernbarkeit        | Einsatz existierender BrailleNotationen oder natürlicher Sprache                                                                       |
-| Adaptierbarkei                   |    Einsatz der BrailleNotation/Sprechweise je nach Kenntnissen des Lesers                                                                                                                                     |
+| graphische Symbole | verbalisieren durch **Namen** oder nicht-verbale Klänge                                                                                     |
+| Lernbarkeit        | Einsatz *existierender* BrailleNotationen oder *natürlicher* Sprache                                                                       |
+| Adaptierbarkeit                   |    Individualisierbarkeit -> Einsatz der BrailleNotation/Sprechweise je nach Kenntnissen des Lesers                                                                                                                                     |
 
 ## Brailleschriften und Mark-up (用于数学符号的盲文)
 - Marburger Mathematik Schriftgröße 
@@ -166,13 +165,14 @@ aliases:
 MathML 是一种用于描述数学和科学公式的标记语言。它的全称是 "*==Mathematical Markup Language==*"，即数学标记语言。MathML 是由 W3C（World Wide Web Consortium）制定的一种*XML（可扩展标记语言*应用，旨在*使数学内容能够在Web页面中以结构化的方式呈现和交互。*
 - die Erstellung und Darstellung geeignet für Menschen und maschinelle Verarbeitung sind
 
-Präsentation Markup in MathML:
+**Präsentation Markup** für Symbole in MathML:
 - Token Elemente
 - $mi$ für identities (*Variablen*)
 - $mo$ für *Operatoren*
 - $mn$ für *Zahlen*
 - `<apply>` Funktionen
 
+**Content Markup** für Funktionen (sin, plus, vector)
 
 ![[Pasted image 20240202181606.png]]
 
@@ -189,7 +189,6 @@ Präsentation Markup in MathML:
 ## Box Modell
 ![[Pasted image 20240206161459.png]]
 Ziel: *visuelle Zusammenhänge* in Boxes abbilden
-
 
 # Fallstudie 3: Multimedia Barriere
 ## Projekt *MultiReader*
@@ -226,8 +225,8 @@ A *multimodal multimedia navigation* and *reading* system
 具体实现方式:
 - *angereicherte* Dokumente (**xHTML** (basiert auf XML)→SMIL + Widgets für Navigation(`<tour>`,自定义标签) (多标签属性提供文字信息)
 	-  XHTML: *tags* () and *attributes* (alt="...") provide redundancy
-	- Synchronous Multimedia Integration Lang. (SMIL): 多媒体同一个时间轴播放
-- <mark style="background: #ADCCFFA6;">Trennen von Inhalt und Präsentation</mark> (CSS+Container)
+	- Synchronous Multimedia Integration Lang. (**SMIL**): 多媒体同一个时间轴播放
+- <mark style="background: #ADCCFFA6;">Trennen von Inhalt und Präsentation</mark> (Layout per CSS + Container)
 - Mark-up Techniken zur Beschreibung der Lesergruppen (XML)
 - Personalisierung (XSLT)
 - temporalem Mark-up
@@ -239,11 +238,11 @@ A *multimodal multimedia navigation* and *reading* system
 ## *MultiReader* Dokumente
 > Ein MR Dokument ermöglicht die Betrachtung eines **personalisierten** Transformationsergebnisses des Inhalts durch: 
 - Auswählen des Inhalts (Video mit Gebärdensprache, Zusammenfassung) (内容的选择)
-- adaptierbaren Sichten (Schriftgröße, Farbe, temporale Adaptierungen) des angereicherten Inhalts (自适应系统)
+- *adaptierbaren* Sichten (Schriftgröße, Farbe, temporale Adaptierungen) des angereicherten Inhalts (自适应系统)
 - Navigationstechniken basierend auf semantisch modellierten Interaktionsobjekten (语义的导航)
 
 - Für den Einsatz ist zu **unterscheiden**
-	- **Server-basierte** Anpassung (*transaktions*-basierte Verarbeitung der Profildaten)
+	- **Server-basierte** Anpassung (*transaktions*-basierte Verarbeitung der ==*Profildaten*==)
 	- **Client-basierte** Anpassung (*lokale* Anwendung der Profildaten) (类似于自己调整)
 
 
@@ -277,6 +276,8 @@ A *multimodal multimedia navigation* and *reading* system
 ### Cloud4All
 
 基于云端的技术，GPII 一部分 --> imagine if you could pick up any device
+* z.B. Stick mit n ̈otigen Anforderungen → automatische Umwandlung 
+* Bedarf → m ̈ogliche L ̈osungen → Konfliktl ̈osung → Ausgabe
 
 ## Konflikte in Profilen
 
@@ -287,8 +288,7 @@ A *multimodal multimedia navigation* and *reading* system
 - Stil: Tap Method
 
 # KOLLABORATIVE BARRIEREFREIHEIT
-
-- Crowd Sourcing (让群众解决问题)
+- Crowd Sourcing (让群众解决问题 - z.B. Beseitigung von Barrieren im Web)
 - Kollaborative Bf.: 
 	- Barrierefreiheit wird durch Beteiligung **anderer Menschen** *hergestellt*
 	- ->老师用了轮椅地图的例子, 实质是一种*分布式*和*去中心化*的思维方式。谷歌街景地图也利用了这个方式
